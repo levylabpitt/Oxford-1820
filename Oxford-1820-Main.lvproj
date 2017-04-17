@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Oxford-1820-Main.vi" Type="VI" URL="../Oxford-1820-Main.vi"/>
+		<Item Name="Oxford-1820-Main_.vi" Type="VI" URL="../Oxford-1820-Main_.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Ch_Selector.vi" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Examples/Ch_Selector.vi"/>
@@ -22,6 +22,7 @@
 				<Item Name="Filter Error Codes (Scalar)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Scalar)__ogtk.vi"/>
 				<Item Name="Filter Error Codes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes__ogtk.vi"/>
 				<Item Name="Filtered Error Details - Cluster__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filtered Error Details - Cluster__ogtk.ctl"/>
+				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="__closeStorageFromObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__closeStorageFromObject.vi"/>
@@ -293,7 +294,6 @@
 			<Item Name="1820_IPS_to_DSC.vi" Type="VI" URL="../Mercury - SubVIs/1820_IPS_to_DSC.vi"/>
 			<Item Name="1820_ITC_to_DSC.vi" Type="VI" URL="../Mercury - SubVIs/1820_ITC_to_DSC.vi"/>
 			<Item Name="ColorIndicators_2Colors.vi" Type="VI" URL="../RemoteDashboard/ColorIndicators_2Colors.vi"/>
-			<Item Name="FGV - Attocube Remote.vi" Type="VI" URL="../../attocube/FGV/FGV - Attocube Remote.vi"/>
 			<Item Name="FGV_PSP - Mercury Action Status.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Action Status.vi"/>
 			<Item Name="FGV_PSP - Mercury Actions.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Actions.vi"/>
 			<Item Name="FGV_PSP - Mercury Remote.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Remote.vi"/>
@@ -336,7 +336,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{D0439BC5-CB74-49ED-864C-17E70D605754}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Oxford-1820-Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Oxford-1820-Main_.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
