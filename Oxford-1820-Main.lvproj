@@ -10,6 +10,34 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Mercury - FGV" Type="Folder">
+			<Item Name="FGV_PSP - Mercury Action Status.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Action Status.vi"/>
+			<Item Name="FGV_PSP - Mercury Actions.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Actions.vi"/>
+			<Item Name="FGV_PSP - Mercury Remote.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Remote.vi"/>
+			<Item Name="FGV_PSP - Mercury Status.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Status.vi"/>
+			<Item Name="FGV_PSP - Mercury Targets.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Targets.vi"/>
+		</Item>
+		<Item Name="Mercury - SubVIs" Type="Folder">
+			<Item Name="1820_IPS_to_DSC.vi" Type="VI" URL="../Mercury - SubVIs/1820_IPS_to_DSC.vi"/>
+			<Item Name="1820_ITC_to_DSC.vi" Type="VI" URL="../Mercury - SubVIs/1820_ITC_to_DSC.vi"/>
+			<Item Name="1820FloatApprox.vi" Type="VI" URL="../Mercury - SubVIs/1820FloatApprox.vi"/>
+			<Item Name="check HOLD and resend.vi" Type="VI" URL="../Mercury - SubVIs/check HOLD and resend.vi"/>
+			<Item Name="check RTOS and resend.vi" Type="VI" URL="../Mercury - SubVIs/check RTOS and resend.vi"/>
+			<Item Name="Mercury iXX.zip" Type="Document" URL="../Mercury - SubVIs/Mercury iXX.zip"/>
+			<Item Name="NetVarWrite_dbl.vi" Type="VI" URL="../Mercury - SubVIs/NetVarWrite_dbl.vi"/>
+			<Item Name="NetVarWrite_str.vi" Type="VI" URL="../Mercury - SubVIs/NetVarWrite_str.vi"/>
+		</Item>
+		<Item Name="RemoteDashboard" Type="Folder">
+			<Item Name="ColorIndicators_2Colors.vi" Type="VI" URL="../RemoteDashboard/ColorIndicators_2Colors.vi"/>
+			<Item Name="DashboardBackground_v1.png" Type="Document" URL="../RemoteDashboard/DashboardBackground_v1.png"/>
+			<Item Name="DashboardBackground_v2.1.png" Type="Document" URL="../RemoteDashboard/DashboardBackground_v2.1.png"/>
+			<Item Name="DashboardBackground_v2.png" Type="Document" URL="../RemoteDashboard/DashboardBackground_v2.png"/>
+			<Item Name="MNK_Dashboard.vi" Type="VI" URL="../RemoteDashboard/MNK_Dashboard.vi"/>
+			<Item Name="MNK_Dashboard_v2.vi" Type="VI" URL="../RemoteDashboard/MNK_Dashboard_v2.vi"/>
+			<Item Name="Oxford_MNK_Omega_Sign.vi" Type="VI" URL="../RemoteDashboard/Oxford_MNK_Omega_Sign.vi"/>
+			<Item Name="RS232_Port_ID.vi" Type="VI" URL="../RemoteDashboard/RS232_Port_ID.vi"/>
+		</Item>
+		<Item Name="Oxford-1820-Main.vi" Type="VI" URL="../Oxford-1820-Main.vi"/>
 		<Item Name="Oxford-1820-Main_.vi" Type="VI" URL="../Oxford-1820-Main_.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -291,21 +319,9 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 			</Item>
-			<Item Name="1820_IPS_to_DSC.vi" Type="VI" URL="../Mercury - SubVIs/1820_IPS_to_DSC.vi"/>
-			<Item Name="1820_ITC_to_DSC.vi" Type="VI" URL="../Mercury - SubVIs/1820_ITC_to_DSC.vi"/>
-			<Item Name="ColorIndicators_2Colors.vi" Type="VI" URL="../RemoteDashboard/ColorIndicators_2Colors.vi"/>
-			<Item Name="FGV_PSP - Mercury Action Status.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Action Status.vi"/>
-			<Item Name="FGV_PSP - Mercury Actions.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Actions.vi"/>
-			<Item Name="FGV_PSP - Mercury Remote.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Remote.vi"/>
-			<Item Name="FGV_PSP - Mercury Status.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Status.vi"/>
-			<Item Name="FGV_PSP - Mercury Targets.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Targets.vi"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="MNK_Dashboard_v2.vi" Type="VI" URL="../RemoteDashboard/MNK_Dashboard_v2.vi"/>
-			<Item Name="NetVarWrite_dbl.vi" Type="VI" URL="../Mercury - SubVIs/NetVarWrite_dbl.vi"/>
-			<Item Name="NetVarWrite_str.vi" Type="VI" URL="../Mercury - SubVIs/NetVarWrite_str.vi"/>
-			<Item Name="Oxford_MNK_Omega_Sign.vi" Type="VI" URL="../RemoteDashboard/Oxford_MNK_Omega_Sign.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Oxford-1820" Type="EXE">
