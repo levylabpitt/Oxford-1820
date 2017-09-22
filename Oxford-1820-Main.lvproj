@@ -23,7 +23,7 @@
 			<Item Name="1820FloatApprox.vi" Type="VI" URL="../Mercury - SubVIs/1820FloatApprox.vi"/>
 			<Item Name="check HOLD and resend.vi" Type="VI" URL="../Mercury - SubVIs/check HOLD and resend.vi"/>
 			<Item Name="check RTOS and resend.vi" Type="VI" URL="../Mercury - SubVIs/check RTOS and resend.vi"/>
-			<Item Name="Mercury iXX.zip" Type="Document" URL="../Mercury - SubVIs/Mercury iXX.zip"/>
+			<Item Name="IPSReplytoDSC.vi" Type="VI" URL="../Mercury - SubVIs/IPSReplytoDSC.vi"/>
 			<Item Name="NetVarWrite_dbl.vi" Type="VI" URL="../Mercury - SubVIs/NetVarWrite_dbl.vi"/>
 			<Item Name="NetVarWrite_str.vi" Type="VI" URL="../Mercury - SubVIs/NetVarWrite_str.vi"/>
 		</Item>
@@ -37,7 +37,7 @@
 			<Item Name="Oxford_MNK_Omega_Sign.vi" Type="VI" URL="../RemoteDashboard/Oxford_MNK_Omega_Sign.vi"/>
 			<Item Name="RS232_Port_ID.vi" Type="VI" URL="../RemoteDashboard/RS232_Port_ID.vi"/>
 		</Item>
-		<Item Name="IPSReplytoDSC.vi" Type="VI" URL="../Mercury - SubVIs/IPSReplytoDSC.vi"/>
+		<Item Name="Mercury_GoToField.vi" Type="VI" URL="../Mercury_GoToField.vi"/>
 		<Item Name="Oxford-1820-Main.vi" Type="VI" URL="../Oxford-1820-Main.vi"/>
 		<Item Name="Oxford-1820-Main_.vi" Type="VI" URL="../Oxford-1820-Main_.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -330,7 +330,10 @@
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Mercury_GoToField_SubVI.vi" Type="VI" URL="../Mercury_GoToField_SubVI.vi"/>
 			<Item Name="MercuryStateHistory.vi" Type="VI" URL="../Mercury - SubVIs/MercuryStateHistory.vi"/>
+			<Item Name="wait HOLD.vi" Type="VI" URL="../Mercury - SubVIs/wait HOLD.vi"/>
+			<Item Name="wait Targets match.vi" Type="VI" URL="../Mercury - SubVIs/wait Targets match.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Oxford-1820" Type="EXE">
@@ -348,7 +351,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9A69ABFA-6A47-434D-BAA6-D02AD723B929}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Oxford-1820.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Oxford-1820/Oxford-1820.exe</Property>
