@@ -37,6 +37,7 @@
 			<Item Name="Oxford_MNK_Omega_Sign.vi" Type="VI" URL="../RemoteDashboard/Oxford_MNK_Omega_Sign.vi"/>
 			<Item Name="RS232_Port_ID.vi" Type="VI" URL="../RemoteDashboard/RS232_Port_ID.vi"/>
 		</Item>
+		<Item Name="1820 SAD.vi" Type="VI" URL="/C/Users/voodoo/Desktop/1820 SAD.vi"/>
 		<Item Name="Mercury_GoToField.vi" Type="VI" URL="../Mercury_GoToField.vi"/>
 		<Item Name="Oxford-1820-Main.vi" Type="VI" URL="../Oxford-1820-Main.vi"/>
 		<Item Name="Oxford-1820-Main_.vi" Type="VI" URL="../Oxford-1820-Main_.vi"/>
