@@ -23,7 +23,7 @@
 			<Item Name="1820FloatApprox.vi" Type="VI" URL="../Mercury - SubVIs/1820FloatApprox.vi"/>
 			<Item Name="check HOLD and resend.vi" Type="VI" URL="../Mercury - SubVIs/check HOLD and resend.vi"/>
 			<Item Name="check RTOS and resend.vi" Type="VI" URL="../Mercury - SubVIs/check RTOS and resend.vi"/>
-			<Item Name="IPSReplytoDSC.vi" Type="VI" URL="../Mercury - SubVIs/IPSReplytoDSC.vi"/>
+			<Item Name="Mercury iXX.zip" Type="Document" URL="../Mercury - SubVIs/Mercury iXX.zip"/>
 			<Item Name="NetVarWrite_dbl.vi" Type="VI" URL="../Mercury - SubVIs/NetVarWrite_dbl.vi"/>
 			<Item Name="NetVarWrite_str.vi" Type="VI" URL="../Mercury - SubVIs/NetVarWrite_str.vi"/>
 		</Item>
@@ -37,8 +37,6 @@
 			<Item Name="Oxford_MNK_Omega_Sign.vi" Type="VI" URL="../RemoteDashboard/Oxford_MNK_Omega_Sign.vi"/>
 			<Item Name="RS232_Port_ID.vi" Type="VI" URL="../RemoteDashboard/RS232_Port_ID.vi"/>
 		</Item>
-		<Item Name="1820 SAD.vi" Type="VI" URL="/C/Users/voodoo/Desktop/1820 SAD.vi"/>
-		<Item Name="Mercury_GoToField.vi" Type="VI" URL="../Mercury_GoToField.vi"/>
 		<Item Name="Oxford-1820-Main.vi" Type="VI" URL="../Oxford-1820-Main.vi"/>
 		<Item Name="Oxford-1820-Main_.vi" Type="VI" URL="../Oxford-1820-Main_.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -47,14 +45,11 @@
 				<Item Name="Mercury iXX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Mercury iXX/Mercury iXX.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
 				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
-				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 				<Item Name="Filter Error Codes (Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Array)__ogtk.vi"/>
 				<Item Name="Filter Error Codes (Scalar)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Scalar)__ogtk.vi"/>
 				<Item Name="Filter Error Codes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes__ogtk.vi"/>
 				<Item Name="Filtered Error Details - Cluster__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filtered Error Details - Cluster__ogtk.ctl"/>
-				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
@@ -324,17 +319,9 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 			</Item>
-			<Item Name="1820_Calculate_Sweep_Time.vi" Type="VI" URL="../Mercury - SubVIs/1820_Calculate_Sweep_Time.vi"/>
-			<Item Name="1820_LPF_ON_duration.vi" Type="VI" URL="../Mercury - SubVIs/1820_LPF_ON_duration.vi"/>
-			<Item Name="1820_PS_ON_duration.vi" Type="VI" URL="../Mercury - SubVIs/1820_PS_ON_duration.vi"/>
-			<Item Name="ITCReplytoDSC.vi" Type="VI" URL="../Mercury - SubVIs/ITCReplytoDSC.vi"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Mercury_GoToField_SubVI.vi" Type="VI" URL="../Mercury_GoToField_SubVI.vi"/>
-			<Item Name="MercuryStateHistory.vi" Type="VI" URL="../Mercury - SubVIs/MercuryStateHistory.vi"/>
-			<Item Name="wait HOLD.vi" Type="VI" URL="../Mercury - SubVIs/wait HOLD.vi"/>
-			<Item Name="wait Targets match.vi" Type="VI" URL="../Mercury - SubVIs/wait Targets match.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Oxford-1820" Type="EXE">
@@ -352,7 +339,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9A69ABFA-6A47-434D-BAA6-D02AD723B929}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Oxford-1820.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Oxford-1820/Oxford-1820.exe</Property>
@@ -362,16 +349,13 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Oxford-1820/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_VardepDeployAtStartup" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{00465ECD-FD6F-4574-B939-BED9049A57D2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D0439BC5-CB74-49ED-864C-17E70D605754}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Oxford-1820-Main_.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Oxford-1820-Main.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">University of Pittsburgh</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Oxford-1820</Property>
 				<Property Name="TgtF_internalName" Type="Str">Oxford-1820</Property>
