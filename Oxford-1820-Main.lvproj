@@ -16,6 +16,7 @@
 			<Item Name="FGV_PSP - Mercury Remote.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Remote.vi"/>
 			<Item Name="FGV_PSP - Mercury Status.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Status.vi"/>
 			<Item Name="FGV_PSP - Mercury Targets.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Targets.vi"/>
+			<Item Name="FGV_PSP - Mercury.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury.vi"/>
 		</Item>
 		<Item Name="Mercury - SubVIs" Type="Folder">
 			<Item Name="1820_IPS_to_DSC.vi" Type="VI" URL="../Mercury - SubVIs/1820_IPS_to_DSC.vi"/>
@@ -23,7 +24,7 @@
 			<Item Name="1820FloatApprox.vi" Type="VI" URL="../Mercury - SubVIs/1820FloatApprox.vi"/>
 			<Item Name="check HOLD and resend.vi" Type="VI" URL="../Mercury - SubVIs/check HOLD and resend.vi"/>
 			<Item Name="check RTOS and resend.vi" Type="VI" URL="../Mercury - SubVIs/check RTOS and resend.vi"/>
-			<Item Name="Mercury iXX.zip" Type="Document" URL="../Mercury - SubVIs/Mercury iXX.zip"/>
+			<Item Name="IPSReplytoDSC.vi" Type="VI" URL="../Mercury - SubVIs/IPSReplytoDSC.vi"/>
 			<Item Name="NetVarWrite_dbl.vi" Type="VI" URL="../Mercury - SubVIs/NetVarWrite_dbl.vi"/>
 			<Item Name="NetVarWrite_str.vi" Type="VI" URL="../Mercury - SubVIs/NetVarWrite_str.vi"/>
 		</Item>
@@ -37,7 +38,12 @@
 			<Item Name="Oxford_MNK_Omega_Sign.vi" Type="VI" URL="../RemoteDashboard/Oxford_MNK_Omega_Sign.vi"/>
 			<Item Name="RS232_Port_ID.vi" Type="VI" URL="../RemoteDashboard/RS232_Port_ID.vi"/>
 		</Item>
-		<Item Name="IPSReplytoDSC.vi" Type="VI" URL="../Mercury - SubVIs/IPSReplytoDSC.vi"/>
+		<Item Name="Typedefs" Type="Folder">
+			<Item Name="Actions.ctl" Type="VI" URL="../Mercury - Typedefs/Actions.ctl"/>
+			<Item Name="Mercury FGV.ctl" Type="VI" URL="../Mercury - Typedefs/Mercury FGV.ctl"/>
+			<Item Name="Status.ctl" Type="VI" URL="../Mercury - Typedefs/Status.ctl"/>
+			<Item Name="Targets.ctl" Type="VI" URL="../Mercury - Typedefs/Targets.ctl"/>
+		</Item>
 		<Item Name="Mercury_GoToField.vi" Type="VI" URL="../Mercury_GoToField.vi"/>
 		<Item Name="Oxford-1820-Main.vi" Type="VI" URL="../Oxford-1820-Main.vi"/>
 		<Item Name="Oxford-1820-Main_.vi" Type="VI" URL="../Oxford-1820-Main_.vi"/>
@@ -49,10 +55,12 @@
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
 				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
+				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 				<Item Name="Filter Error Codes (Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Array)__ogtk.vi"/>
 				<Item Name="Filter Error Codes (Scalar)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Scalar)__ogtk.vi"/>
 				<Item Name="Filter Error Codes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes__ogtk.vi"/>
 				<Item Name="Filtered Error Details - Cluster__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filtered Error Details - Cluster__ogtk.ctl"/>
+				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
@@ -350,7 +358,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9A69ABFA-6A47-434D-BAA6-D02AD723B929}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Oxford-1820.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Oxford-1820/Oxford-1820.exe</Property>
