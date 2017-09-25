@@ -10,6 +10,16 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="API" Type="Folder">
+			<Item Name="API_subVIs" Type="Folder">
+				<Item Name="check HOLD and resend.vi" Type="VI" URL="../Mercury - SubVIs/check HOLD and resend.vi"/>
+				<Item Name="check RTOS and resend.vi" Type="VI" URL="../Mercury - SubVIs/check RTOS and resend.vi"/>
+				<Item Name="wait HOLD.vi" Type="VI" URL="../Mercury - SubVIs/wait HOLD.vi"/>
+				<Item Name="wait Targets match.vi" Type="VI" URL="../Mercury - SubVIs/wait Targets match.vi"/>
+			</Item>
+			<Item Name="Mercury_GoToField.vi" Type="VI" URL="../Mercury_GoToField.vi"/>
+			<Item Name="Mercury_GoToField_SubVI.vi" Type="VI" URL="../Mercury_GoToField_SubVI.vi"/>
+		</Item>
 		<Item Name="Mercury - FGV" Type="Folder">
 			<Item Name="FGV_PSP - Mercury Action Status.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Action Status.vi"/>
 			<Item Name="FGV_PSP - Mercury Actions.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Actions.vi"/>
@@ -19,12 +29,15 @@
 			<Item Name="FGV_PSP - Mercury.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury.vi"/>
 		</Item>
 		<Item Name="Mercury - SubVIs" Type="Folder">
+			<Item Name="1820_Calculate_Sweep_Time.vi" Type="VI" URL="../Mercury - SubVIs/1820_Calculate_Sweep_Time.vi"/>
 			<Item Name="1820_IPS_to_DSC.vi" Type="VI" URL="../Mercury - SubVIs/1820_IPS_to_DSC.vi"/>
 			<Item Name="1820_ITC_to_DSC.vi" Type="VI" URL="../Mercury - SubVIs/1820_ITC_to_DSC.vi"/>
+			<Item Name="1820_LPF_ON_duration.vi" Type="VI" URL="../Mercury - SubVIs/1820_LPF_ON_duration.vi"/>
+			<Item Name="1820_PS_ON_duration.vi" Type="VI" URL="../Mercury - SubVIs/1820_PS_ON_duration.vi"/>
 			<Item Name="1820FloatApprox.vi" Type="VI" URL="../Mercury - SubVIs/1820FloatApprox.vi"/>
-			<Item Name="check HOLD and resend.vi" Type="VI" URL="../Mercury - SubVIs/check HOLD and resend.vi"/>
-			<Item Name="check RTOS and resend.vi" Type="VI" URL="../Mercury - SubVIs/check RTOS and resend.vi"/>
 			<Item Name="IPSReplytoDSC.vi" Type="VI" URL="../Mercury - SubVIs/IPSReplytoDSC.vi"/>
+			<Item Name="ITCReplytoDSC.vi" Type="VI" URL="../Mercury - SubVIs/ITCReplytoDSC.vi"/>
+			<Item Name="MercuryStateHistory.vi" Type="VI" URL="../Mercury - SubVIs/MercuryStateHistory.vi"/>
 			<Item Name="NetVarWrite_dbl.vi" Type="VI" URL="../Mercury - SubVIs/NetVarWrite_dbl.vi"/>
 			<Item Name="NetVarWrite_str.vi" Type="VI" URL="../Mercury - SubVIs/NetVarWrite_str.vi"/>
 		</Item>
@@ -44,7 +57,6 @@
 			<Item Name="Status.ctl" Type="VI" URL="../Mercury - Typedefs/Status.ctl"/>
 			<Item Name="Targets.ctl" Type="VI" URL="../Mercury - Typedefs/Targets.ctl"/>
 		</Item>
-		<Item Name="Mercury_GoToField.vi" Type="VI" URL="../Mercury_GoToField.vi"/>
 		<Item Name="Oxford-1820-Main.vi" Type="VI" URL="../Oxford-1820-Main.vi"/>
 		<Item Name="Oxford-1820-Main_.vi" Type="VI" URL="../Oxford-1820-Main_.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -330,17 +342,9 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 			</Item>
-			<Item Name="1820_Calculate_Sweep_Time.vi" Type="VI" URL="../Mercury - SubVIs/1820_Calculate_Sweep_Time.vi"/>
-			<Item Name="1820_LPF_ON_duration.vi" Type="VI" URL="../Mercury - SubVIs/1820_LPF_ON_duration.vi"/>
-			<Item Name="1820_PS_ON_duration.vi" Type="VI" URL="../Mercury - SubVIs/1820_PS_ON_duration.vi"/>
-			<Item Name="ITCReplytoDSC.vi" Type="VI" URL="../Mercury - SubVIs/ITCReplytoDSC.vi"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Mercury_GoToField_SubVI.vi" Type="VI" URL="../Mercury_GoToField_SubVI.vi"/>
-			<Item Name="MercuryStateHistory.vi" Type="VI" URL="../Mercury - SubVIs/MercuryStateHistory.vi"/>
-			<Item Name="wait HOLD.vi" Type="VI" URL="../Mercury - SubVIs/wait HOLD.vi"/>
-			<Item Name="wait Targets match.vi" Type="VI" URL="../Mercury - SubVIs/wait Targets match.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Oxford-1820" Type="EXE">
