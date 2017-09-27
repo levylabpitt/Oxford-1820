@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="API" Type="Folder">
 			<Item Name="subVIs" Type="Folder">
+				<Item Name="API Test.vi" Type="VI" URL="../API/subVIs/API Test.vi"/>
 				<Item Name="check HOLD and resend.vi" Type="VI" URL="../API/subVIs/check HOLD and resend.vi"/>
 				<Item Name="check RTOS and resend.vi" Type="VI" URL="../API/subVIs/check RTOS and resend.vi"/>
 				<Item Name="wait HOLD.vi" Type="VI" URL="../API/subVIs/wait HOLD.vi"/>
@@ -39,6 +40,7 @@
 			<Item Name="MercuryStateHistory.vi" Type="VI" URL="../Mercury - SubVIs/MercuryStateHistory.vi"/>
 			<Item Name="NetVarWrite_dbl.vi" Type="VI" URL="../Mercury - SubVIs/NetVarWrite_dbl.vi"/>
 			<Item Name="NetVarWrite_str.vi" Type="VI" URL="../Mercury - SubVIs/NetVarWrite_str.vi"/>
+			<Item Name="StarTrekIndicator.vi" Type="VI" URL="../Mercury - SubVIs/StarTrekIndicator.vi"/>
 		</Item>
 		<Item Name="RemoteDashboard" Type="Folder">
 			<Item Name="ColorIndicators_2Colors.vi" Type="VI" URL="../RemoteDashboard/ColorIndicators_2Colors.vi"/>
@@ -360,7 +362,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9A69ABFA-6A47-434D-BAA6-D02AD723B929}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Oxford-1820.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Oxford-1820/Oxford-1820.exe</Property>
