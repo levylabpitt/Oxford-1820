@@ -12,21 +12,21 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="API" Type="Folder">
 			<Item Name="subVIs" Type="Folder">
-				<Item Name="API Test.vi" Type="VI" URL="../API/subVIs/API Test.vi"/>
-				<Item Name="check HOLD and resend.vi" Type="VI" URL="../API/subVIs/check HOLD and resend.vi"/>
-				<Item Name="check RTOS and resend.vi" Type="VI" URL="../API/subVIs/check RTOS and resend.vi"/>
-				<Item Name="wait HOLD.vi" Type="VI" URL="../API/subVIs/wait HOLD.vi"/>
-				<Item Name="wait Targets match.vi" Type="VI" URL="../API/subVIs/wait Targets match.vi"/>
+				<Item Name="API Test.vi" Type="VI" URL="../API/Private/API Test.vi"/>
+				<Item Name="check HOLD and resend.vi" Type="VI" URL="../API/Private/subVIs/check HOLD and resend.vi"/>
+				<Item Name="check RTOS and resend.vi" Type="VI" URL="../API/Private/subVIs/check RTOS and resend.vi"/>
+				<Item Name="wait HOLD.vi" Type="VI" URL="../API/Private/subVIs/wait HOLD.vi"/>
+				<Item Name="wait Targets match.vi" Type="VI" URL="../API/Private/subVIs/wait Targets match.vi"/>
 			</Item>
 			<Item Name="Mercury_GoToField.vi" Type="VI" URL="../API/Mercury_GoToField.vi"/>
-			<Item Name="Mercury_GoToField_SubVI.vi" Type="VI" URL="../API/subVIs/Mercury_GoToField_SubVI.vi"/>
+			<Item Name="Mercury_GoToField_SubVI.vi" Type="VI" URL="../API/Private/subVIs/Mercury_GoToField_SubVI.vi"/>
 		</Item>
 		<Item Name="Mercury - FGV" Type="Folder">
-			<Item Name="FGV_PSP - Mercury Action Status.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Action Status.vi"/>
-			<Item Name="FGV_PSP - Mercury Actions.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Actions.vi"/>
-			<Item Name="FGV_PSP - Mercury Remote.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Remote.vi"/>
-			<Item Name="FGV_PSP - Mercury Status.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Status.vi"/>
-			<Item Name="FGV_PSP - Mercury Targets.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Targets.vi"/>
+			<Item Name="FGV_PSP - Mercury Action Status.vi" Type="VI" URL="../API/Private/FGV/FGV_PSP - Mercury Action Status.vi"/>
+			<Item Name="FGV_PSP - Mercury Actions.vi" Type="VI" URL="../API/Private/FGV/FGV_PSP - Mercury Actions.vi"/>
+			<Item Name="FGV_PSP - Mercury Remote.vi" Type="VI" URL="../API/Private/FGV/FGV_PSP - Mercury Remote.vi"/>
+			<Item Name="FGV_PSP - Mercury Status.vi" Type="VI" URL="../API/Private/FGV/FGV_PSP - Mercury Status.vi"/>
+			<Item Name="FGV_PSP - Mercury Targets.vi" Type="VI" URL="../API/Private/FGV/FGV_PSP - Mercury Targets.vi"/>
 		</Item>
 		<Item Name="Mercury - SubVIs" Type="Folder">
 			<Item Name="1820_Calculate_Sweep_Time.vi" Type="VI" URL="../Mercury - SubVIs/1820_Calculate_Sweep_Time.vi"/>
