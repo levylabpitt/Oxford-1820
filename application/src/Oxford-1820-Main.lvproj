@@ -42,8 +42,6 @@
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
-				<Item Name="1820FloatApprox.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/1820FloatApprox.vi"/>
-				<Item Name="Actions.ctl" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/Actions.ctl"/>
 				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 				<Item Name="Filter Error Codes (Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Array)__ogtk.vi"/>
@@ -52,8 +50,6 @@
 				<Item Name="Filtered Error Details - Cluster__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filtered Error Details - Cluster__ogtk.ctl"/>
 				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
 				<Item Name="Mercury-1820-API.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/Mercury-1820-API.lvlib"/>
-				<Item Name="Status.ctl" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/Status.ctl"/>
-				<Item Name="Targets.ctl" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/Targets.ctl"/>
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
@@ -353,7 +349,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Oxford-1820/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_VardepDeployAtStartup" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{00465ECD-FD6F-4574-B939-BED9049A57D2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3C29DDA5-547E-433E-B16F-10B5649DA9C7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Oxford-1820-Main_.vi</Property>
