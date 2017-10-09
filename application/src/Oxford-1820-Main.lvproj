@@ -34,12 +34,6 @@
 			<Item Name="NetVarWrite_str.vi" Type="VI" URL="../subVIs/NetVarWrite_str.vi"/>
 			<Item Name="StarTrekIndicator.vi" Type="VI" URL="../subVIs/StarTrekIndicator.vi"/>
 		</Item>
-		<Item Name="Typedefs" Type="Folder">
-			<Item Name="Actions.ctl" Type="VI" URL="../Typedefs/Actions.ctl"/>
-			<Item Name="Status.ctl" Type="VI" URL="../Typedefs/Status.ctl"/>
-			<Item Name="Targets.ctl" Type="VI" URL="../Typedefs/Targets.ctl"/>
-		</Item>
-		<Item Name="Mercury-1820-API.lvlib" Type="Library" URL="../API/Mercury-1820-API.lvlib"/>
 		<Item Name="Oxford-1820-Main.vi" Type="VI" URL="../Oxford-1820-Main.vi"/>
 		<Item Name="Oxford-1820-Main_.vi" Type="VI" URL="../Oxford-1820-Main_.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -49,6 +43,8 @@
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
+				<Item Name="1820FloatApprox.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/1820FloatApprox.vi"/>
+				<Item Name="Actions.ctl" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/Actions.ctl"/>
 				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 				<Item Name="Filter Error Codes (Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Array)__ogtk.vi"/>
@@ -56,6 +52,9 @@
 				<Item Name="Filter Error Codes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes__ogtk.vi"/>
 				<Item Name="Filtered Error Details - Cluster__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filtered Error Details - Cluster__ogtk.ctl"/>
 				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
+				<Item Name="Mercury-1820-API.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/Mercury-1820-API.lvlib"/>
+				<Item Name="Status.ctl" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/Status.ctl"/>
+				<Item Name="Targets.ctl" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/Targets.ctl"/>
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
