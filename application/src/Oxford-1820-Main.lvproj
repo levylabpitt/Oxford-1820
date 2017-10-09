@@ -26,7 +26,6 @@
 			<Item Name="1820_ITC_to_DSC.vi" Type="VI" URL="../subVIs/1820_ITC_to_DSC.vi"/>
 			<Item Name="1820_LPF_ON_duration.vi" Type="VI" URL="../subVIs/1820_LPF_ON_duration.vi"/>
 			<Item Name="1820_PS_ON_duration.vi" Type="VI" URL="../subVIs/1820_PS_ON_duration.vi"/>
-			<Item Name="1820FloatApprox.vi" Type="VI" URL="../subVIs/1820FloatApprox.vi"/>
 			<Item Name="IPSReplytoDSC.vi" Type="VI" URL="../subVIs/IPSReplytoDSC.vi"/>
 			<Item Name="ITCReplytoDSC.vi" Type="VI" URL="../subVIs/ITCReplytoDSC.vi"/>
 			<Item Name="MercuryStateHistory.vi" Type="VI" URL="../subVIs/MercuryStateHistory.vi"/>

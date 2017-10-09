@@ -34,23 +34,25 @@
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="Oxford-1820-Main.vi" Type="Friended VI" URL="../../Oxford-1820-Main.vi"/>
 	</Item>
-	<Item Name="FGV" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="FGV_PSP - Mercury Action Status.vi" Type="VI" URL="../FGV/FGV_PSP - Mercury Action Status.vi"/>
-		<Item Name="FGV_PSP - Mercury Actions.vi" Type="VI" URL="../FGV/FGV_PSP - Mercury Actions.vi"/>
-		<Item Name="FGV_PSP - Mercury Remote.vi" Type="VI" URL="../FGV/FGV_PSP - Mercury Remote.vi"/>
-		<Item Name="FGV_PSP - Mercury Status.vi" Type="VI" URL="../FGV/FGV_PSP - Mercury Status.vi"/>
-		<Item Name="FGV_PSP - Mercury Targets.vi" Type="VI" URL="../FGV/FGV_PSP - Mercury Targets.vi"/>
-	</Item>
-	<Item Name="subVIs" Type="Folder">
+	<Item Name="private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="1820FloatApprox.vi" Type="VI" URL="../subVIs/1820FloatApprox.vi"/>
-		<Item Name="API Test.vi" Type="VI" URL="../subVIs/API Test.vi"/>
-		<Item Name="check HOLD and resend.vi" Type="VI" URL="../subVIs/check HOLD and resend.vi"/>
-		<Item Name="check RTOS and resend.vi" Type="VI" URL="../subVIs/check RTOS and resend.vi"/>
-		<Item Name="Mercury_GoToField_SubVI.vi" Type="VI" URL="../subVIs/Mercury_GoToField_SubVI.vi"/>
-		<Item Name="wait HOLD.vi" Type="VI" URL="../subVIs/wait HOLD.vi"/>
-		<Item Name="wait Targets match.vi" Type="VI" URL="../subVIs/wait Targets match.vi"/>
+		<Item Name="API Test.vi" Type="VI" URL="../private/API Test.vi"/>
+		<Item Name="check HOLD and resend.vi" Type="VI" URL="../private/check HOLD and resend.vi"/>
+		<Item Name="check RTOS and resend.vi" Type="VI" URL="../private/check RTOS and resend.vi"/>
+		<Item Name="Mercury_GoToField_SubVI.vi" Type="VI" URL="../private/Mercury_GoToField_SubVI.vi"/>
+		<Item Name="wait HOLD.vi" Type="VI" URL="../private/wait HOLD.vi"/>
+		<Item Name="wait Targets match.vi" Type="VI" URL="../private/wait Targets match.vi"/>
+	</Item>
+	<Item Name="public" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="FGV" Type="Folder">
+			<Item Name="FGV_PSP - Mercury Action Status.vi" Type="VI" URL="../FGV/FGV_PSP - Mercury Action Status.vi"/>
+			<Item Name="FGV_PSP - Mercury Actions.vi" Type="VI" URL="../FGV/FGV_PSP - Mercury Actions.vi"/>
+			<Item Name="FGV_PSP - Mercury Remote.vi" Type="VI" URL="../FGV/FGV_PSP - Mercury Remote.vi"/>
+			<Item Name="FGV_PSP - Mercury Status.vi" Type="VI" URL="../FGV/FGV_PSP - Mercury Status.vi"/>
+			<Item Name="FGV_PSP - Mercury Targets.vi" Type="VI" URL="../FGV/FGV_PSP - Mercury Targets.vi"/>
+		</Item>
+		<Item Name="1820FloatApprox.vi" Type="VI" URL="../public/1820FloatApprox.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Actions.ctl" Type="VI" URL="../Typedefs/Actions.ctl"/>
