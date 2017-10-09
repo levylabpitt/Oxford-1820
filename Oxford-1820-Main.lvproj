@@ -15,32 +15,18 @@
 				<Item Name="API Test.vi" Type="VI" URL="../API/subVIs/API Test.vi"/>
 				<Item Name="check HOLD and resend.vi" Type="VI" URL="../API/subVIs/check HOLD and resend.vi"/>
 				<Item Name="check RTOS and resend.vi" Type="VI" URL="../API/subVIs/check RTOS and resend.vi"/>
+				<Item Name="Mercury_GoToField_SubVI.vi" Type="VI" URL="../API/subVIs/Mercury_GoToField_SubVI.vi"/>
 				<Item Name="wait HOLD.vi" Type="VI" URL="../API/subVIs/wait HOLD.vi"/>
 				<Item Name="wait Targets match.vi" Type="VI" URL="../API/subVIs/wait Targets match.vi"/>
 			</Item>
 			<Item Name="Mercury_GoToField.vi" Type="VI" URL="../API/Mercury_GoToField.vi"/>
-			<Item Name="Mercury_GoToField_SubVI.vi" Type="VI" URL="../API/subVIs/Mercury_GoToField_SubVI.vi"/>
 		</Item>
-		<Item Name="Mercury - FGV" Type="Folder">
+		<Item Name="FGV" Type="Folder">
 			<Item Name="FGV_PSP - Mercury Action Status.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Action Status.vi"/>
 			<Item Name="FGV_PSP - Mercury Actions.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Actions.vi"/>
 			<Item Name="FGV_PSP - Mercury Remote.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Remote.vi"/>
 			<Item Name="FGV_PSP - Mercury Status.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Status.vi"/>
 			<Item Name="FGV_PSP - Mercury Targets.vi" Type="VI" URL="../Mercury - FGV/FGV_PSP - Mercury Targets.vi"/>
-		</Item>
-		<Item Name="Mercury - SubVIs" Type="Folder">
-			<Item Name="1820_Calculate_Sweep_Time.vi" Type="VI" URL="../Mercury - SubVIs/1820_Calculate_Sweep_Time.vi"/>
-			<Item Name="1820_IPS_to_DSC.vi" Type="VI" URL="../Mercury - SubVIs/1820_IPS_to_DSC.vi"/>
-			<Item Name="1820_ITC_to_DSC.vi" Type="VI" URL="../Mercury - SubVIs/1820_ITC_to_DSC.vi"/>
-			<Item Name="1820_LPF_ON_duration.vi" Type="VI" URL="../Mercury - SubVIs/1820_LPF_ON_duration.vi"/>
-			<Item Name="1820_PS_ON_duration.vi" Type="VI" URL="../Mercury - SubVIs/1820_PS_ON_duration.vi"/>
-			<Item Name="1820FloatApprox.vi" Type="VI" URL="../Mercury - SubVIs/1820FloatApprox.vi"/>
-			<Item Name="IPSReplytoDSC.vi" Type="VI" URL="../Mercury - SubVIs/IPSReplytoDSC.vi"/>
-			<Item Name="ITCReplytoDSC.vi" Type="VI" URL="../Mercury - SubVIs/ITCReplytoDSC.vi"/>
-			<Item Name="MercuryStateHistory.vi" Type="VI" URL="../Mercury - SubVIs/MercuryStateHistory.vi"/>
-			<Item Name="NetVarWrite_dbl.vi" Type="VI" URL="../Mercury - SubVIs/NetVarWrite_dbl.vi"/>
-			<Item Name="NetVarWrite_str.vi" Type="VI" URL="../Mercury - SubVIs/NetVarWrite_str.vi"/>
-			<Item Name="StarTrekIndicator.vi" Type="VI" URL="../Mercury - SubVIs/StarTrekIndicator.vi"/>
 		</Item>
 		<Item Name="RemoteDashboard" Type="Folder">
 			<Item Name="ColorIndicators_2Colors.vi" Type="VI" URL="../RemoteDashboard/ColorIndicators_2Colors.vi"/>
@@ -52,10 +38,24 @@
 			<Item Name="Oxford_MNK_Omega_Sign.vi" Type="VI" URL="../RemoteDashboard/Oxford_MNK_Omega_Sign.vi"/>
 			<Item Name="RS232_Port_ID.vi" Type="VI" URL="../RemoteDashboard/RS232_Port_ID.vi"/>
 		</Item>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="1820_Calculate_Sweep_Time.vi" Type="VI" URL="../subVIs/1820_Calculate_Sweep_Time.vi"/>
+			<Item Name="1820_IPS_to_DSC.vi" Type="VI" URL="../subVIs/1820_IPS_to_DSC.vi"/>
+			<Item Name="1820_ITC_to_DSC.vi" Type="VI" URL="../subVIs/1820_ITC_to_DSC.vi"/>
+			<Item Name="1820_LPF_ON_duration.vi" Type="VI" URL="../subVIs/1820_LPF_ON_duration.vi"/>
+			<Item Name="1820_PS_ON_duration.vi" Type="VI" URL="../subVIs/1820_PS_ON_duration.vi"/>
+			<Item Name="1820FloatApprox.vi" Type="VI" URL="../subVIs/1820FloatApprox.vi"/>
+			<Item Name="IPSReplytoDSC.vi" Type="VI" URL="../subVIs/IPSReplytoDSC.vi"/>
+			<Item Name="ITCReplytoDSC.vi" Type="VI" URL="../subVIs/ITCReplytoDSC.vi"/>
+			<Item Name="MercuryStateHistory.vi" Type="VI" URL="../subVIs/MercuryStateHistory.vi"/>
+			<Item Name="NetVarWrite_dbl.vi" Type="VI" URL="../subVIs/NetVarWrite_dbl.vi"/>
+			<Item Name="NetVarWrite_str.vi" Type="VI" URL="../subVIs/NetVarWrite_str.vi"/>
+			<Item Name="StarTrekIndicator.vi" Type="VI" URL="../subVIs/StarTrekIndicator.vi"/>
+		</Item>
 		<Item Name="Typedefs" Type="Folder">
-			<Item Name="Actions.ctl" Type="VI" URL="../Mercury - Typedefs/Actions.ctl"/>
-			<Item Name="Status.ctl" Type="VI" URL="../Mercury - Typedefs/Status.ctl"/>
-			<Item Name="Targets.ctl" Type="VI" URL="../Mercury - Typedefs/Targets.ctl"/>
+			<Item Name="Actions.ctl" Type="VI" URL="../Typedefs/Actions.ctl"/>
+			<Item Name="Status.ctl" Type="VI" URL="../Typedefs/Status.ctl"/>
+			<Item Name="Targets.ctl" Type="VI" URL="../Typedefs/Targets.ctl"/>
 		</Item>
 		<Item Name="Oxford-1820-Main.vi" Type="VI" URL="../Oxford-1820-Main.vi"/>
 		<Item Name="Oxford-1820-Main_.vi" Type="VI" URL="../Oxford-1820-Main_.vi"/>
