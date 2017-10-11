@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-10-09 12:55:40" Modified_Date="2017-10-11 12:57:36" Creator="Patrick Irvin" Comments="" ID="478d239c0a724fc0e84bd9a78483d6ce">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-10-09 12:55:40" Modified_Date="2017-10-11 13:14:14" Creator="Patrick Irvin" Comments="" ID="ec7e524a70fe7957dad131a7279cd9b2">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
-    <Library_Version>1.0.2.5</Library_Version>
+    <Library_Version>1.0.2.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -247,7 +247,7 @@
         <Path>src\Mercury_GoToField.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8ABE3971B273E9214BDF986D983D4328</GUID>
+      <GUID>7E27F35040C07939C57D108E27A5C475</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -338,7 +338,7 @@
         <Path>src\FGV\FGV_PSP - Mercury Targets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A18BF65C69A38484217CB8B58C9828A7</GUID>
+      <GUID>14E437DB7C1B3D255F546405CEDDD1DF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -443,7 +443,7 @@
         <Path>src\private\wait Targets match.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>77F95F90E14C04E4B4C73B14BA178D68</GUID>
+      <GUID>242ED88356A1D0DB715B7B0BFE98C91A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -478,7 +478,7 @@
         <Path>src\public\1820FloatApprox.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>59BC9E9A673F827FFF71280AF50A8492</GUID>
+      <GUID>09D1101EA3096E1A2D354CEB0777ACE9</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -513,7 +513,7 @@
         <Path>src\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FC45B6B6998B3D536AE2AA93637769D8</GUID>
+      <GUID>F9FA8649C81235F5D4CE4E2411C0E6D9</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -576,7 +576,7 @@
         <Path>src\Typedefs\Targets.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>708DC0B815F4D4DD73A1B6759511683C</GUID>
+      <GUID>8776BEAA1DC2983B85ABF62ACE3F622B</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
