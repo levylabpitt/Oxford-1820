@@ -10,6 +10,21 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="API" Type="Folder">
+			<Item Name="src" Type="Folder">
+				<Item Name="FGV" Type="Folder"/>
+				<Item Name="private" Type="Folder"/>
+				<Item Name="public" Type="Folder"/>
+				<Item Name="Typedefs" Type="Folder"/>
+				<Item Name="Mercury-1820-API.lvlib" Type="Library" URL="../API/src/Mercury-1820-API.lvlib"/>
+				<Item Name="Oxford 1820 API.vipb" Type="Document" URL="../API/src/Oxford 1820 API.vipb"/>
+			</Item>
+			<Item Name="levylab_lib_oxford_1820_api-1.0.0.1.vip" Type="Document" URL="../API/levylab_lib_oxford_1820_api-1.0.0.1.vip"/>
+			<Item Name="levylab_lib_oxford_1820_api-1.0.1.2.vip" Type="Document" URL="../API/levylab_lib_oxford_1820_api-1.0.1.2.vip"/>
+			<Item Name="levylab_lib_oxford_1820_api-1.0.2.3.vip" Type="Document" URL="../API/levylab_lib_oxford_1820_api-1.0.2.3.vip"/>
+			<Item Name="levylab_lib_oxford_1820_api-1.0.2.4.vip" Type="Document" URL="../API/levylab_lib_oxford_1820_api-1.0.2.4.vip"/>
+			<Item Name="levylab_lib_oxford_1820_api-1.0.2.5.vip" Type="Document" URL="../API/levylab_lib_oxford_1820_api-1.0.2.5.vip"/>
+		</Item>
 		<Item Name="RemoteDashboard" Type="Folder">
 			<Item Name="ColorIndicators_2Colors.vi" Type="VI" URL="../RemoteDashboard/ColorIndicators_2Colors.vi"/>
 			<Item Name="DashboardBackground_v1.png" Type="Document" URL="../RemoteDashboard/DashboardBackground_v1.png"/>
