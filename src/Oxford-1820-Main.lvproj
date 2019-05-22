@@ -10,6 +10,36 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="API" Type="Folder">
+			<Item Name="FGV" Type="Folder">
+				<Item Name="FGV_PSP - Mercury Action Status.vi" Type="VI" URL="../API/FGV/FGV_PSP - Mercury Action Status.vi"/>
+				<Item Name="FGV_PSP - Mercury Actions.vi" Type="VI" URL="../API/FGV/FGV_PSP - Mercury Actions.vi"/>
+				<Item Name="FGV_PSP - Mercury Remote.vi" Type="VI" URL="../API/FGV/FGV_PSP - Mercury Remote.vi"/>
+				<Item Name="FGV_PSP - Mercury Status.vi" Type="VI" URL="../API/FGV/FGV_PSP - Mercury Status.vi"/>
+				<Item Name="FGV_PSP - Mercury Targets.vi" Type="VI" URL="../API/FGV/FGV_PSP - Mercury Targets.vi"/>
+			</Item>
+			<Item Name="private" Type="Folder">
+				<Item Name="API Test.vi" Type="VI" URL="../API/private/API Test.vi"/>
+				<Item Name="check HOLD and resend.vi" Type="VI" URL="../API/private/check HOLD and resend.vi"/>
+				<Item Name="check RTOS and resend.vi" Type="VI" URL="../API/private/check RTOS and resend.vi"/>
+				<Item Name="Mercury_GoToField_SubVI.vi" Type="VI" URL="../API/private/Mercury_GoToField_SubVI.vi"/>
+				<Item Name="wait HOLD.vi" Type="VI" URL="../API/private/wait HOLD.vi"/>
+				<Item Name="wait Targets match.vi" Type="VI" URL="../API/private/wait Targets match.vi"/>
+			</Item>
+			<Item Name="public" Type="Folder">
+				<Item Name="1820FloatApprox.vi" Type="VI" URL="../API/public/1820FloatApprox.vi"/>
+			</Item>
+			<Item Name="Typedefs" Type="Folder">
+				<Item Name="Actions.ctl" Type="VI" URL="../API/Typedefs/Actions.ctl"/>
+				<Item Name="Status.ctl" Type="VI" URL="../API/Typedefs/Status.ctl"/>
+				<Item Name="Targets.ctl" Type="VI" URL="../API/Typedefs/Targets.ctl"/>
+			</Item>
+			<Item Name="Mercury_GoToField.vi" Type="VI" URL="../API/Mercury_GoToField.vi"/>
+			<Item Name="Oxford 1820 API.vipb" Type="Document" URL="../API/Oxford 1820 API.vipb"/>
+			<Item Name="Oxford1820 AP.aliases" Type="Document" URL="../API/Oxford1820 AP.aliases"/>
+			<Item Name="Oxford1820 AP.lvlps" Type="Document" URL="../API/Oxford1820 AP.lvlps"/>
+			<Item Name="Oxford1820 AP.lvproj" Type="Document" URL="../API/Oxford1820 AP.lvproj"/>
+		</Item>
 		<Item Name="Instrument" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="LevyLab.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/LevyLab/LevyLab.lvclass"/>
@@ -76,6 +106,11 @@
 				<Item Name="Current VI&apos;s Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VI&apos;s Path__ogtk.vi"/>
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 				<Item Name="Encode Section and Key Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Encode Section and Key Names__ogtk.vi"/>
+				<Item Name="FGV_PSP - Mercury Action Status.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/FGV/FGV_PSP - Mercury Action Status.vi"/>
+				<Item Name="FGV_PSP - Mercury Actions.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/FGV/FGV_PSP - Mercury Actions.vi"/>
+				<Item Name="FGV_PSP - Mercury Remote.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/FGV/FGV_PSP - Mercury Remote.vi"/>
+				<Item Name="FGV_PSP - Mercury Status.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/FGV/FGV_PSP - Mercury Status.vi"/>
+				<Item Name="FGV_PSP - Mercury Targets.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/FGV/FGV_PSP - Mercury Targets.vi"/>
 				<Item Name="Filter Error Codes (Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Array)__ogtk.vi"/>
 				<Item Name="Filter Error Codes (Scalar)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Scalar)__ogtk.vi"/>
 				<Item Name="Filter Error Codes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes__ogtk.vi"/>
@@ -102,7 +137,6 @@
 				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
 				<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
 				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
-				<Item Name="Mercury-1820-API.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/Mercury-1820-API.lvlib"/>
 				<Item Name="MGI Append String to Error Source.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Error Handling/MGI Append String to Error Source.vi"/>
 				<Item Name="MGI Caller&apos;s VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Caller&apos;s VI Reference.vi"/>
 				<Item Name="MGI Coerce Panel Bounds to Viewable Area.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Coerce Panel Bounds to Viewable Area.vi"/>
