@@ -46,11 +46,11 @@
 	<Item Name="public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="FGV" Type="Folder">
-			<Item Name="FGV_PSP - Mercury Action Status.vi" Type="VI" URL="../FGV/FGV_PSP - Mercury Action Status.vi"/>
+			<Item Name="FGV_PSP - Mercury Action Status.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/FGV/FGV_PSP - Mercury Action Status.vi"/>
 			<Item Name="FGV_PSP - Mercury Actions.vi" Type="VI" URL="../FGV/FGV_PSP - Mercury Actions.vi"/>
-			<Item Name="FGV_PSP - Mercury Remote.vi" Type="VI" URL="../FGV/FGV_PSP - Mercury Remote.vi"/>
+			<Item Name="FGV_PSP - Mercury Remote.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/FGV/FGV_PSP - Mercury Remote.vi"/>
 			<Item Name="FGV_PSP - Mercury Status.vi" Type="VI" URL="../FGV/FGV_PSP - Mercury Status.vi"/>
-			<Item Name="FGV_PSP - Mercury Targets.vi" Type="VI" URL="../FGV/FGV_PSP - Mercury Targets.vi"/>
+			<Item Name="FGV_PSP - Mercury Targets.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/FGV/FGV_PSP - Mercury Targets.vi"/>
 		</Item>
 		<Item Name="1820FloatApprox.vi" Type="VI" URL="../public/1820FloatApprox.vi"/>
 	</Item>
