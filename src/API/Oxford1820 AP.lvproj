@@ -34,8 +34,10 @@
 			<Item Name="Targets.ctl" Type="VI" URL="../Typedefs/Targets.ctl"/>
 		</Item>
 		<Item Name="Mercury_GoToField.vi" Type="VI" URL="../Mercury_GoToField.vi"/>
+		<Item Name="Read_MNK_B_Field.vi" Type="VI" URL="../Read_MNK_B_Field.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
+				<Item Name="FGV_PSP - Mercury Status.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/FGV/FGV_PSP - Mercury Status.vi"/>
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 		</Item>

@@ -57,6 +57,7 @@
 				<Item Name="Status.ctl" Type="VI" URL="../API/Typedefs/Status.ctl"/>
 				<Item Name="Targets.ctl" Type="VI" URL="../API/Typedefs/Targets.ctl"/>
 			</Item>
+			<Item Name="Read_MNK_B_Field.vi" Type="VI" URL="../API/Read_MNK_B_Field.vi"/>
 			<Item Name="Mercury_GoToField.vi" Type="VI" URL="../API/Mercury_GoToField.vi"/>
 			<Item Name="Oxford 1820 API.vipb" Type="Document" URL="../API/Oxford 1820 API.vipb"/>
 			<Item Name="Oxford1820 AP.aliases" Type="Document" URL="../API/Oxford1820 AP.aliases"/>
