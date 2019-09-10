@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-09 12:55:40" Modified_Date="2019-07-24 22:32:16" Creator="Patrick Irvin" Comments="" ID="c44c68ab14aacef85e9ff9bf3de9b7dd">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-09 12:55:40" Modified_Date="2019-09-10 10:11:47" Creator="Patrick Irvin" Comments="" ID="ffb80da4d4ddd1fff2ad10488037043a">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
-    <Library_Version>1.1.0.7</Library_Version>
+    <Library_Version>1.1.1.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -32,9 +32,9 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.1.0.6]
-- inherit from Instrument.Cryostat
-- add override methods Get/Set Magnet Field to palette</Release_Notes>
+      <Release_Notes>[1.1.1.8]
+- "Set Magnet Field.vi" is now makes an asynchrnous call to Mercury_GoToField.vi
+- reorganize files</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -209,7 +209,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Instrument.Oxford1820\Get Magnet Field.vi</Path>
+        <Path>Instrument.Oxford1820\API\Get Magnet Field.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -223,10 +223,10 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Instrument.Oxford1820\Set Magnet Field.vi</Path>
+        <Path>Instrument.Oxford1820\API\Set Magnet Field.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7025034DDFAEFD70A33D1847A11F99A0</GUID>
+      <GUID>F1353BE93681B3BF3E4597B89824A4A7</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -261,7 +261,7 @@
         <Path>API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7D40E962ABC66B8F1339438DE5D9011B</GUID>
+      <GUID>AFAC65787149557EE2509C7A54717FE4</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -296,7 +296,7 @@
         <Path>API\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>387F0F8B3AC303C9F8054070367D3143</GUID>
+      <GUID>259B434078DFAAA23004F511ED313C44</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -328,7 +328,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Typedefs\Actions.ctl</Path>
+        <Path>Instrument.Oxford1820\Typedefs\Actions.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -342,7 +342,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Typedefs\Status.ctl</Path>
+        <Path>Instrument.Oxford1820\Typedefs\Status.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -356,10 +356,10 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Typedefs\Targets.ctl</Path>
+        <Path>Instrument.Oxford1820\Typedefs\Targets.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DFD8119961799938451CCCCC99D161C4</GUID>
+      <GUID>2EA90AC072107A79F07B7A20967178AA</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
