@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-09 12:55:40" Modified_Date="2019-09-10 10:11:47" Creator="Patrick Irvin" Comments="" ID="ffb80da4d4ddd1fff2ad10488037043a">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-09 12:55:40" Modified_Date="2019-09-13 13:34:05" Creator="Patrick Irvin" Comments="" ID="1ce7e7ebd8ddf87939ea435643947556">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
-    <Library_Version>1.1.1.9</Library_Version>
+    <Library_Version>1.1.2.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -32,9 +32,11 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.1.1.8]
-- "Set Magnet Field.vi" is now makes an asynchrnous call to Mercury_GoToField.vi
-- reorganize files</Release_Notes>
+      <Release_Notes>[1.1.2.9]
+1. add license and readme
+2. change path for asynchronous call of Mercury_GoToField.vi to be relative to Set Magnet Field.vi
+3. Show Mercury_GoToField.vi front panel when called (asynchronously)
+4. change persistent heater wait time to 30" (instead of 60")</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -226,7 +228,7 @@
         <Path>Instrument.Oxford1820\API\Set Magnet Field.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F1353BE93681B3BF3E4597B89824A4A7</GUID>
+      <GUID>84546C5D52FA9E3A0B610E2F008F7976</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -261,7 +263,7 @@
         <Path>API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AFAC65787149557EE2509C7A54717FE4</GUID>
+      <GUID>C64A8DF3102178B895F8B917503F6731</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -296,7 +298,7 @@
         <Path>API\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>259B434078DFAAA23004F511ED313C44</GUID>
+      <GUID>5E1866315A278F49D955A1ABBA362243</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -359,7 +361,7 @@
         <Path>Instrument.Oxford1820\Typedefs\Targets.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2EA90AC072107A79F07B7A20967178AA</GUID>
+      <GUID>56AB54C0C162A9F486FE5780295CA858</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
