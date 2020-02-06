@@ -26,10 +26,10 @@
 			<Item Name="RS232_Port_ID.vi" Type="VI" URL="../RemoteDashboard/RS232_Port_ID.vi"/>
 		</Item>
 		<Item Name="SMOs" Type="Folder">
-			<Item Name="Instrument.Oxford1820 UI.lvclass" Type="LVClass" URL="../SMOs/Instrument.Oxford1820 UI/Instrument.Oxford1820 UI.lvclass"/>
 			<Item Name="Instrument.Oxford1820.lvclass" Type="LVClass" URL="../SMOs/Instrument.Oxford1820/Instrument.Oxford1820.lvclass"/>
+			<Item Name="Instrument.Oxford1820 UI.lvclass" Type="LVClass" URL="../SMOs/Instrument.Oxford1820 UI/Instrument.Oxford1820 UI.lvclass"/>
 		</Item>
-		<Item Name="SubVIs" Type="Folder"/>
+		<Item Name="Instrument.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/Instrument/Instrument.lvclass"/>
 		<Item Name="Oxford-1820-Main.vi" Type="VI" URL="../Oxford-1820-Main.vi"/>
 		<Item Name="Oxford-1820-Main_.vi" Type="VI" URL="../Oxford-1820-Main_.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -193,7 +193,6 @@
 				<Item Name="Write Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Key (Variant)__ogtk.vi"/>
 				<Item Name="Write Section Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Section Cluster__ogtk.vi"/>
 				<Item Name="LevyLab.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/LevyLab/LevyLab.lvclass"/>
-				<Item Name="Instrument.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/Instrument/Instrument.lvclass"/>
 				<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
 				<Item Name="Configuration.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/Configuration/Configuration.lvclass"/>
 				<Item Name="Logger.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/Logger/Logger.lvclass"/>
