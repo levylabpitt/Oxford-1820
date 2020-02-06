@@ -11,6 +11,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="build support" Type="Folder">
+			<Item Name="Oxford 1820 API.vipb" Type="Document" URL="../API/Oxford 1820 API.vipb"/>
+			<Item Name="Oxford 1820 API.vipc" Type="Document" URL="../../build support/Oxford 1820 API.vipc"/>
+		</Item>
 		<Item Name="RemoteDashboard" Type="Folder">
 			<Item Name="ColorIndicators_2Colors.vi" Type="VI" URL="../RemoteDashboard/ColorIndicators_2Colors.vi"/>
 			<Item Name="DashboardBackground_v1.png" Type="Document" URL="../RemoteDashboard/DashboardBackground_v1.png"/>
@@ -21,54 +25,11 @@
 			<Item Name="Oxford_MNK_Omega_Sign.vi" Type="VI" URL="../RemoteDashboard/Oxford_MNK_Omega_Sign.vi"/>
 			<Item Name="RS232_Port_ID.vi" Type="VI" URL="../RemoteDashboard/RS232_Port_ID.vi"/>
 		</Item>
-		<Item Name="API" Type="Folder">
-			<Item Name="FGV" Type="Folder">
-				<Item Name="FGV_PSP - Mercury Action Status.vi" Type="VI" URL="../API/FGV/FGV_PSP - Mercury Action Status.vi"/>
-				<Item Name="FGV_PSP - Mercury Actions.vi" Type="VI" URL="../API/FGV/FGV_PSP - Mercury Actions.vi"/>
-				<Item Name="FGV_PSP - Mercury Remote.vi" Type="VI" URL="../API/FGV/FGV_PSP - Mercury Remote.vi"/>
-				<Item Name="FGV_PSP - Mercury Status.vi" Type="VI" URL="../API/FGV/FGV_PSP - Mercury Status.vi"/>
-				<Item Name="FGV_PSP - Mercury Targets.vi" Type="VI" URL="../API/FGV/FGV_PSP - Mercury Targets.vi"/>
-			</Item>
-			<Item Name="private" Type="Folder">
-				<Item Name="API Test.vi" Type="VI" URL="../API/private/API Test.vi"/>
-				<Item Name="check HOLD and resend.vi" Type="VI" URL="../API/private/check HOLD and resend.vi"/>
-				<Item Name="check RTOS and resend.vi" Type="VI" URL="../API/private/check RTOS and resend.vi"/>
-				<Item Name="Mercury_GoToField_SubVI.vi" Type="VI" URL="../API/private/Mercury_GoToField_SubVI.vi"/>
-				<Item Name="wait HOLD.vi" Type="VI" URL="../API/private/wait HOLD.vi"/>
-				<Item Name="wait Targets match.vi" Type="VI" URL="../API/private/wait Targets match.vi"/>
-			</Item>
-			<Item Name="public" Type="Folder">
-				<Item Name="1820FloatApprox.vi" Type="VI" URL="../API/public/1820FloatApprox.vi"/>
-			</Item>
-			<Item Name="Typedefs" Type="Folder">
-				<Item Name="Actions.ctl" Type="VI" URL="../API/Typedefs/Actions.ctl"/>
-				<Item Name="Status.ctl" Type="VI" URL="../API/Typedefs/Status.ctl"/>
-				<Item Name="Targets.ctl" Type="VI" URL="../API/Typedefs/Targets.ctl"/>
-			</Item>
-			<Item Name="Read_MNK_B_Field.vi" Type="VI" URL="../API/Read_MNK_B_Field.vi"/>
-			<Item Name="Mercury_GoToField.vi" Type="VI" URL="../API/Mercury_GoToField.vi"/>
-			<Item Name="Oxford 1820 API.vipb" Type="Document" URL="../API/Oxford 1820 API.vipb"/>
-			<Item Name="Oxford1820 AP.aliases" Type="Document" URL="../API/Oxford1820 AP.aliases"/>
-			<Item Name="Oxford1820 AP.lvlps" Type="Document" URL="../API/Oxford1820 AP.lvlps"/>
-			<Item Name="Oxford1820 AP.lvproj" Type="Document" URL="../API/Oxford1820 AP.lvproj"/>
-		</Item>
 		<Item Name="SMOs" Type="Folder">
 			<Item Name="Instrument.Oxford1820 UI.lvclass" Type="LVClass" URL="../SMOs/Instrument.Oxford1820 UI/Instrument.Oxford1820 UI.lvclass"/>
-			<Item Name="Instrument.Oxford1820.lvclass" Type="LVClass" URL="../API/Instrument.Oxford1820/Instrument.Oxford1820.lvclass"/>
+			<Item Name="Instrument.Oxford1820.lvclass" Type="LVClass" URL="../SMOs/Instrument.Oxford1820/Instrument.Oxford1820.lvclass"/>
 		</Item>
-		<Item Name="SubVIs" Type="Folder">
-			<Item Name="1820_Calculate_Sweep_Time.vi" Type="VI" URL="../subVIs/1820_Calculate_Sweep_Time.vi"/>
-			<Item Name="1820_IPS_to_DSC.vi" Type="VI" URL="../subVIs/1820_IPS_to_DSC.vi"/>
-			<Item Name="1820_ITC_to_DSC.vi" Type="VI" URL="../subVIs/1820_ITC_to_DSC.vi"/>
-			<Item Name="1820_LPF_ON_duration.vi" Type="VI" URL="../subVIs/1820_LPF_ON_duration.vi"/>
-			<Item Name="1820_PS_ON_duration.vi" Type="VI" URL="../subVIs/1820_PS_ON_duration.vi"/>
-			<Item Name="IPSReplytoDSC.vi" Type="VI" URL="../subVIs/IPSReplytoDSC.vi"/>
-			<Item Name="ITCReplytoDSC.vi" Type="VI" URL="../subVIs/ITCReplytoDSC.vi"/>
-			<Item Name="MercuryStateHistory.vi" Type="VI" URL="../subVIs/MercuryStateHistory.vi"/>
-			<Item Name="NetVarWrite_dbl.vi" Type="VI" URL="../subVIs/NetVarWrite_dbl.vi"/>
-			<Item Name="NetVarWrite_str.vi" Type="VI" URL="../subVIs/NetVarWrite_str.vi"/>
-			<Item Name="StarTrekIndicator.vi" Type="VI" URL="../subVIs/StarTrekIndicator.vi"/>
-		</Item>
+		<Item Name="SubVIs" Type="Folder"/>
 		<Item Name="Oxford-1820-Main.vi" Type="VI" URL="../Oxford-1820-Main.vi"/>
 		<Item Name="Oxford-1820-Main_.vi" Type="VI" URL="../Oxford-1820-Main_.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -245,6 +206,7 @@
 				<Item Name="FGV_PSP - Mercury Actions.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/FGV/FGV_PSP - Mercury Actions.vi"/>
 				<Item Name="FGV_PSP - Mercury Remote.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/FGV/FGV_PSP - Mercury Remote.vi"/>
 				<Item Name="FGV_PSP - Mercury Action Status.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Oxford 1820 API/FGV/FGV_PSP - Mercury Action Status.vi"/>
+				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
