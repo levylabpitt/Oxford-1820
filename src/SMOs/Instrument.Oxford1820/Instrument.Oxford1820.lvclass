@@ -431,6 +431,7 @@
 				<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 			</Item>
 		</Item>
+		<Item Name="delete?" Type="Folder"/>
 		<Item Name="check HOLD and resend.vi" Type="VI" URL="../Private/check HOLD and resend.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#T!!!!"Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!5!!$!!!!!1!##'6S=G^S)'FO!!"5!0!!$!!$!!1!"!!%!!1!"!!%!!1!"1!%!!1!"!-!!(A!!!U)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!!"!!9!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -620,6 +621,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1350836736</Property>
 		</Item>
+		<Item Name="Set Persistent Mode.vi" Type="VI" URL="../API/Set Persistent Mode.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;/!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%*!=!!?!!!@(5FO=X2S&gt;7VF&lt;H1O4XBG&lt;X*E-4AS-#ZM&gt;G.M98.T!"F*&lt;H.U=H6N:7ZU,E^Y:G^S:$%Y-D!A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!1E"Q!"Y!!"]&gt;37ZT&gt;(*V&lt;76O&gt;#Z0?':P=G1R/$)Q,GRW9WRB=X-!'%FO=X2S&gt;7VF&lt;H1O4XBG&lt;X*E-4AS-#"J&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		</Item>
 		<Item Name="Oxford1820 Client.vi" Type="VI" URL="../Private/Oxford1820 Client.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*2!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$E"4#%2B&gt;'%A&lt;X6U!!!%!!!!0%"Q!"Y!!"]&gt;37ZT&gt;(*V&lt;76O&gt;#Z0?':P=G1R/$)Q,GRW9WRB=X-!%UFO=X2S&gt;7VF&lt;H1O-4AS-#"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!+1&amp;-%2'&amp;U91!!^Q$R!!!!!!!!!!)&gt;37ZT&gt;(*V&lt;76O&gt;#Z0?':P=G1R/$)Q,GRW9WRB=X-H37ZT&gt;(*V&lt;76O&gt;#Z0?':P=G1R/$)Q,E.P&lt;7VB&lt;G2T,76O&gt;7UO9X2M!+F!&amp;A!-#8.F&gt;%&amp;D&gt;'FP&lt;AFT:82598*H:81.=W6U5X&gt;J&gt;'.I3'6B&gt;!FT:82-97VC:'%,=W6U2GFM&lt;%VP:'5/=W6U4G6F:'RF6G&amp;M&gt;G5/=W6U47&amp;H&lt;G6U2GFF&lt;'1*:W6U5X2B&gt;(6T#7&gt;F&gt;&amp;2B=G&gt;F&gt;!VH:824&gt;WFU9WB):7&amp;U#W&gt;F&gt;&amp;"465:J:7RE$G&gt;F&gt;%VB:WZF&gt;%:J:7RE!!!)1W^N&lt;7&amp;O:(-!!$R!=!!?!!!@(5FO=X2S&gt;7VF&lt;H1O4XBG&lt;X*E-4AS-#ZM&gt;G.M98.T!"**&lt;H.U=H6N:7ZU,D%Y-D!A;7Y!!'%!]!!-!!-!"!!&amp;!!9!"1!&amp;!!5!"1!(!!A!#1!+!Q!!?!!!$1A!!!E!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!#!!!!!A!!!!+!!!.!!!!$!!!!!!!!!!!!!!"!!M!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -628,6 +638,24 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+		</Item>
+		<Item Name="Ramp PSU to Target.vi" Type="VI" URL="../API/Ramp PSU to Target.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;_!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%*!=!!?!!!@(5FO=X2S&gt;7VF&lt;H1O4XBG&lt;X*E-4AS-#ZM&gt;G.M98.T!"F*&lt;H.U=H6N:7ZU,E^Y:G^S:$%Y-D!A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!'5!+!".598*H:81A5G&amp;U:3!I6#^N;7YJ!"&gt;!#A!16'&amp;S:W6U)%:J:7RE)#B5+1!!1E"Q!"Y!!"]&gt;37ZT&gt;(*V&lt;76O&gt;#Z0?':P=G1R/$)Q,GRW9WRB=X-!'%FO=X2S&gt;7VF&lt;H1O4XBG&lt;X*E-4AS-#"J&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!)!!E$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!!#!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		</Item>
+		<Item Name="Ramp PSU to Magnet.vi" Type="VI" URL="../API/Ramp PSU to Magnet.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;/!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%*!=!!?!!!@(5FO=X2S&gt;7VF&lt;H1O4XBG&lt;X*E-4AS-#ZM&gt;G.M98.T!"F*&lt;H.U=H6N:7ZU,E^Y:G^S:$%Y-D!A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!1E"Q!"Y!!"]&gt;37ZT&gt;(*V&lt;76O&gt;#Z0?':P=G1R/$)Q,GRW9WRB=X-!'%FO=X2S&gt;7VF&lt;H1O4XBG&lt;X*E-4AS-#"J&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
 	</Item>
 	<Item Name="API" Type="Folder">
@@ -778,13 +806,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 		</Item>
 		<Item Name="1820FloatApprox.vi" Type="VI" URL="../public/1820FloatApprox.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"1!!!!"1!-1#%'?#"_)(E`!!!%!!!!"U!+!!&amp;Z!!&gt;!#A!"?!!K!0!!"1!!!!%!!A!$!!%#!!"!!!!*!!!!!!!!!!A!!!!+!!!!!!!!!!!"!!1!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"!!!!!"!!-1#%'?#"_)(E`!!!(1!I!!8E!"U!+!!&amp;Y!"Y!]!!$!!!!!1!#!A!!%!!!#1!!!!A!!!!+!!!!!!%!!Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 		</Item>
 	</Item>
 	<Item Name="Process.vi" Type="VI" URL="../Process.vi">
