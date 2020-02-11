@@ -32,6 +32,7 @@
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/Instrument/Instrument.lvclass"/>
 		<Item Name="Oxford-1820-Main.vi" Type="VI" URL="../Oxford-1820-Main.vi"/>
 		<Item Name="Oxford-1820-Main_.vi" Type="VI" URL="../Oxford-1820-Main_.vi"/>
+		<Item Name="Oxford-1820-Main-Launcher.vi" Type="VI" URL="../Oxford-1820-Main-Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Ch_Selector.vi" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Examples/Ch_Selector.vi"/>
