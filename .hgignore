@@ -2,3 +2,4 @@ syntax: glob
 *.vip
 *.exe
 *.ini
+src/Oxford-1820-Main.aliases
