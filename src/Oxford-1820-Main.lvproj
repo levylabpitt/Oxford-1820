@@ -12,7 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder">
-			<Item Name="Oxford 1820 API.vipb" Type="Document" URL="../API/Oxford 1820 API.vipb"/>
+			<Item Name="Oxford 1820 API.vipb" Type="Document" URL="../../build support/Oxford 1820 API.vipb"/>
 			<Item Name="Oxford 1820 API.vipc" Type="Document" URL="../../build support/Oxford 1820 API.vipc"/>
 		</Item>
 		<Item Name="RemoteDashboard" Type="Folder">
