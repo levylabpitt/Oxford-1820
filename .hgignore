@@ -1,5 +1,15 @@
-syntax: glob
-*.vip
-*.exe
-*.ini
-src/Oxford-1820-Main.aliases
+Changes:
+Instrument.lvclass:
++ Logger.PGSQL.lvclass
++ Get SMO PGSQL Log Paths.vi
+- Process.vi: + Log to PGSQL state. Calls Get SMO PGSQL Log Paths.vi. And Logger.PGSQL.lvclass:Logger.PGSQL.WriteVariable.vi
+
+Oxford:
++ Get SMO PGSQL Log Paths.vi
+
+Data.PGSQL.lvclass
+- Issues #37, #38, #39, #41
+- password_prompt.vi: bind return to OK button
+- Set Connection Info.vi: manage passwords
+- Error Handler.vi, Error ctl, --> Parse Variant.vi, --> Read Trace.vi
+- Update some icons
