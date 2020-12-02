@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2020-02-18 15:10:22" Creator="Patrick Irvin" Comments="" ID="24f9d4ea68cc33e86cc0878d267a0eca">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2020-12-02 00:05:08" Creator="Patrick Irvin" Comments="" ID="ace140231f522133f5e633f366aab12c">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
     <Library_Version>1.1.3.12</Library_Version>
@@ -17,16 +17,74 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <External_Dependencies>jdp_science_postgresql &gt;= 0.1.1.10</External_Dependencies>
+      <External_Dependencies>jki_lib_json_serialization &gt;= 1.1.10.37</External_Dependencies>
+      <External_Dependencies>jki_lib_serialization &gt;= 1.0.1.14</External_Dependencies>
       <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
       <External_Dependencies>jki_statemachineobjects &gt;= 1.3.0.56</External_Dependencies>
+      <External_Dependencies>labview-zmq &gt;= 3.5.1.109</External_Dependencies>
+      <External_Dependencies>lava_lib_ui_tools &gt;= 1.4.1.74</External_Dependencies>
+      <External_Dependencies>levylab_lib_fileutilities &gt;= 1.2.6.13</External_Dependencies>
+      <External_Dependencies>levylab_lib_graph_utilities &gt;= 2.1.2.4</External_Dependencies>
+      <External_Dependencies>levylab_lib_lvtoitx &gt;= 3.0.5.13</External_Dependencies>
+      <External_Dependencies>levylab_lib_postgresql &gt;= 1.2.0.12</External_Dependencies>
+      <External_Dependencies>levylab_lib_xy_utilities &gt;= 1.2.0.12</External_Dependencies>
+      <External_Dependencies>mgi_lib_application_control &gt;= 1.1.1.10</External_Dependencies>
+      <External_Dependencies>mgi_lib_cluster &gt;= 1.1.0.1</External_Dependencies>
+      <External_Dependencies>mgi_lib_error_handling &gt;= 1.1.1.3</External_Dependencies>
+      <External_Dependencies>mgi_lib_error_reporter &gt;= 1.0.2.5</External_Dependencies>
+      <External_Dependencies>mgi_lib_file &gt;= 1.1.0.4</External_Dependencies>
+      <External_Dependencies>mgi_lib_numeric &gt;= 1.1.0.2</External_Dependencies>
+      <External_Dependencies>mgi_lib_picture_&amp;_image &gt;= 1.0.2.1</External_Dependencies>
+      <External_Dependencies>mgi_lib_read_write_anything &gt;= 2.1.4.4</External_Dependencies>
+      <External_Dependencies>mgi_lib_string &gt;= 1.1.1.5</External_Dependencies>
+      <External_Dependencies>national_instruments_lib_guid_generator &gt;= 1.0.2.3</External_Dependencies>
+      <External_Dependencies>ni_lib_stm &gt;= 3.1.0.9</External_Dependencies>
       <External_Dependencies>oglib_appcontrol &gt;= 4.1.0.7</External_Dependencies>
+      <External_Dependencies>oglib_array &gt;= 4.1.1.14</External_Dependencies>
+      <External_Dependencies>oglib_dictionary &gt;= 4.0.0.4</External_Dependencies>
+      <External_Dependencies>oglib_error &gt;= 4.2.0.23</External_Dependencies>
+      <External_Dependencies>oglib_file &gt;= 4.0.1.22</External_Dependencies>
+      <External_Dependencies>oglib_lvdata &gt;= 4.2.0.21</External_Dependencies>
+      <External_Dependencies>oglib_lvzip &gt;= 4.0.1</External_Dependencies>
+      <External_Dependencies>oglib_numeric &gt;= 4.1.0.8</External_Dependencies>
       <External_Dependencies>oglib_string &gt;= 4.1.0.12</External_Dependencies>
       <External_Dependencies>oglib_time &gt;= 4.0.1.3</External_Dependencies>
+      <External_Dependencies>oglib_variantconfig &gt;= 4.0.0.5</External_Dependencies>
+      <Direct_Dependencies>jdp_science_postgresql-0.1.1.10</Direct_Dependencies>
+      <Direct_Dependencies>jki_lib_json_serialization-1.1.10.37</Direct_Dependencies>
+      <Direct_Dependencies>jki_lib_serialization-1.0.1.14</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>jki_statemachineobjects-1.3.0.56</Direct_Dependencies>
+      <Direct_Dependencies>labview-zmq-3.5.1.109</Direct_Dependencies>
+      <Direct_Dependencies>lava_lib_ui_tools-1.4.1.74</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_fileutilities-1.2.6.13</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_graph_utilities-2.1.2.4</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_lvtoitx-3.0.5.13</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_postgresql-1.2.0.12</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_xy_utilities-1.2.0.12</Direct_Dependencies>
+      <Direct_Dependencies>mgi_lib_application_control-1.1.1.10</Direct_Dependencies>
+      <Direct_Dependencies>mgi_lib_cluster-1.1.0.1</Direct_Dependencies>
+      <Direct_Dependencies>mgi_lib_error_handling-1.1.1.3</Direct_Dependencies>
+      <Direct_Dependencies>mgi_lib_error_reporter-1.0.2.5</Direct_Dependencies>
+      <Direct_Dependencies>mgi_lib_file-1.1.0.4</Direct_Dependencies>
+      <Direct_Dependencies>mgi_lib_numeric-1.1.0.2</Direct_Dependencies>
+      <Direct_Dependencies>mgi_lib_picture_&amp;_image-1.0.2.1</Direct_Dependencies>
+      <Direct_Dependencies>mgi_lib_read_write_anything-2.1.4.4</Direct_Dependencies>
+      <Direct_Dependencies>mgi_lib_string-1.1.1.5</Direct_Dependencies>
+      <Direct_Dependencies>national_instruments_lib_guid_generator-1.0.2.3</Direct_Dependencies>
+      <Direct_Dependencies>ni_lib_stm-3.1.0.9</Direct_Dependencies>
       <Direct_Dependencies>oglib_appcontrol-4.1.0.7</Direct_Dependencies>
+      <Direct_Dependencies>oglib_array-4.1.1.14</Direct_Dependencies>
+      <Direct_Dependencies>oglib_dictionary-4.0.0.4</Direct_Dependencies>
+      <Direct_Dependencies>oglib_error-4.2.0.23</Direct_Dependencies>
+      <Direct_Dependencies>oglib_file-4.0.1.22</Direct_Dependencies>
+      <Direct_Dependencies>oglib_lvdata-4.2.0.21</Direct_Dependencies>
+      <Direct_Dependencies>oglib_lvzip-4.0.1-1</Direct_Dependencies>
+      <Direct_Dependencies>oglib_numeric-4.1.0.8</Direct_Dependencies>
       <Direct_Dependencies>oglib_string-4.1.0.12</Direct_Dependencies>
       <Direct_Dependencies>oglib_time-4.0.1.3</Direct_Dependencies>
+      <Direct_Dependencies>oglib_variantconfig-4.0.0.5</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -238,7 +296,7 @@
         <Path>..\src\SMOs\Instrument.Oxford1820\API\Set Magnet Field.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8BC1E21C56B0A898E1AA5547BA916581</GUID>
+      <GUID>B84AB78289E6C71106B172E9E6123805</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
