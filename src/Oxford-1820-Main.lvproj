@@ -1634,8 +1634,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9A69ABFA-6A47-434D-BAA6-D02AD723B929}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Oxford-1820.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/Oxford-1820.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1679,61 +1680,69 @@
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{BBF5CDD9-BBA7-4B7F-BC45-166399B6DDFC}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI System Configuration Runtime 19.5.0</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{0E192465-CC28-4C84-BE81-710B71C595A3}</Property>
-				<Property Name="DistPart[1].flavorID" Type="Str">_deployment_</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{272BF3A9-7DBB-47EE-B2B8-CB893AA8166B}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI-VISA Runtime 16.0</Property>
-				<Property Name="DistPart[1].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{84A14A37-121A-4BAF-B2D5-4A807910A22F}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI Distributed System Manager 2016</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{AE3BDC39-5362-47B3-866A-80CC36690478}</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{BBF5CDD9-BBA7-4B7F-BC45-166399B6DDFC}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI System Configuration Runtime 19.5.0</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{0E192465-CC28-4C84-BE81-710B71C595A3}</Property>
 				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{DC60282C-2D1B-43AB-BE90-AD2192E22270}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2016 f7</Property>
-				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
-				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[2].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI Deployment Framework 2016</Property>
-				<Property Name="DistPart[2].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
-				<Property Name="DistPart[2].SoftDep[10].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[2].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
-				<Property Name="DistPart[2].SoftDep[11].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[11].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2016</Property>
-				<Property Name="DistPart[2].SoftDep[11].upgradeCode" Type="Str">{718F68F2-14F0-4656-A29E-617F12A7343B}</Property>
-				<Property Name="DistPart[2].SoftDep[12].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[12].productName" Type="Str">NI System Web Server 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[12].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
-				<Property Name="DistPart[2].SoftDep[13].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[13].productName" Type="Str">NI TDM Streaming 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[13].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[2].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[2].productName" Type="Str">NI Error Reporting 2016</Property>
-				<Property Name="DistPart[2].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
-				<Property Name="DistPart[2].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[3].productName" Type="Str">NI LabVIEW Runtime 2016 Non-English Support.</Property>
-				<Property Name="DistPart[2].SoftDep[3].upgradeCode" Type="Str">{72AEEB03-DF6A-4C90-B44E-22B1E74CF14F}</Property>
-				<Property Name="DistPart[2].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[4].productName" Type="Str">NI Logos 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[2].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[5].productName" Type="Str">NI LabVIEW Web Server 2016</Property>
-				<Property Name="DistPart[2].SoftDep[5].upgradeCode" Type="Str">{6A61A967-C04E-47A1-8D08-DF27332A78AB}</Property>
-				<Property Name="DistPart[2].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[6].productName" Type="Str">NI mDNS Responder 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[6].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[2].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[7].productName" Type="Str">Math Kernel Libraries</Property>
-				<Property Name="DistPart[2].SoftDep[7].upgradeCode" Type="Str">{F34FFCA8-C4CB-47CC-8B81-C4E95E227355}</Property>
-				<Property Name="DistPart[2].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
-				<Property Name="DistPart[2].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
-				<Property Name="DistPart[2].SoftDep[9].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[9].productName" Type="Str">NI VC2010MSMs</Property>
-				<Property Name="DistPart[2].SoftDep[9].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
-				<Property Name="DistPart[2].SoftDepCount" Type="Int">14</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{E7DBF016-365A-40B6-9526-B4D0B4830F51}</Property>
-				<Property Name="DistPartCount" Type="Int">3</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{FA0DB08E-BC18-4194-9ADC-026B7C8D5CEA}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI Variable Engine 2019</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{EB7A3C81-1C0F-4495-8CE5-0A427E4E6285}</Property>
+				<Property Name="DistPart[3].flavorID" Type="Str">_deployment_</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{272BF3A9-7DBB-47EE-B2B8-CB893AA8166B}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI-VISA Runtime 16.0</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[4].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[4].productID" Type="Str">{DC60282C-2D1B-43AB-BE90-AD2192E22270}</Property>
+				<Property Name="DistPart[4].productName" Type="Str">NI LabVIEW Runtime 2016 f7</Property>
+				<Property Name="DistPart[4].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[4].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[4].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[1].productName" Type="Str">NI Deployment Framework 2016</Property>
+				<Property Name="DistPart[4].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[4].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[4].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[4].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[11].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2016</Property>
+				<Property Name="DistPart[4].SoftDep[11].upgradeCode" Type="Str">{718F68F2-14F0-4656-A29E-617F12A7343B}</Property>
+				<Property Name="DistPart[4].SoftDep[12].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[12].productName" Type="Str">NI System Web Server 19.0</Property>
+				<Property Name="DistPart[4].SoftDep[12].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
+				<Property Name="DistPart[4].SoftDep[13].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[13].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[4].SoftDep[13].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[4].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[2].productName" Type="Str">NI Error Reporting 2016</Property>
+				<Property Name="DistPart[4].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[4].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[3].productName" Type="Str">NI LabVIEW Runtime 2016 Non-English Support.</Property>
+				<Property Name="DistPart[4].SoftDep[3].upgradeCode" Type="Str">{72AEEB03-DF6A-4C90-B44E-22B1E74CF14F}</Property>
+				<Property Name="DistPart[4].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[4].productName" Type="Str">NI Logos 19.0</Property>
+				<Property Name="DistPart[4].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[4].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[5].productName" Type="Str">NI LabVIEW Web Server 2016</Property>
+				<Property Name="DistPart[4].SoftDep[5].upgradeCode" Type="Str">{6A61A967-C04E-47A1-8D08-DF27332A78AB}</Property>
+				<Property Name="DistPart[4].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[6].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[4].SoftDep[6].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[4].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[7].productName" Type="Str">Math Kernel Libraries</Property>
+				<Property Name="DistPart[4].SoftDep[7].upgradeCode" Type="Str">{F34FFCA8-C4CB-47CC-8B81-C4E95E227355}</Property>
+				<Property Name="DistPart[4].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
+				<Property Name="DistPart[4].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
+				<Property Name="DistPart[4].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[9].productName" Type="Str">NI VC2010MSMs</Property>
+				<Property Name="DistPart[4].SoftDep[9].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
+				<Property Name="DistPart[4].SoftDepCount" Type="Int">14</Property>
+				<Property Name="DistPart[4].upgradeCode" Type="Str">{E7DBF016-365A-40B6-9526-B4D0B4830F51}</Property>
+				<Property Name="DistPartCount" Type="Int">5</Property>
 				<Property Name="INST_author" Type="Str">University of Pittsburgh</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/Installer</Property>
@@ -1741,7 +1750,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">Oxford-1820 Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{FAE76DA4-5FA2-413F-B90B-0E138C343E73}</Property>
 				<Property Name="INST_productName" Type="Str">Oxford-1820-Main</Property>
-				<Property Name="INST_productVersion" Type="Str">1.2.0</Property>
+				<Property Name="INST_productVersion" Type="Str">1.2.1</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008029</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
