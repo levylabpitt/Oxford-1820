@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2020-12-06 12:37:52" Creator="Patrick Irvin" Comments="" ID="fa3d57232974df922a297bbbb53e34b6">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2021-01-30 11:13:29" Creator="Patrick Irvin" Comments="" ID="fe2db85baebca173c1e711f99557a3de">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
-    <Library_Version>1.2.1.15</Library_Version>
+    <Library_Version>1.2.2.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -27,8 +27,8 @@
       <External_Dependencies>levylab_lib_fileutilities &gt;= 1.2.6.13</External_Dependencies>
       <External_Dependencies>levylab_lib_graph_utilities &gt;= 2.1.2.4</External_Dependencies>
       <External_Dependencies>levylab_lib_lvtoitx &gt;= 3.0.5.13</External_Dependencies>
-      <External_Dependencies>levylab_lib_postgresql &gt;= 1.2.1.13</External_Dependencies>
-      <External_Dependencies>levylab_lib_xy_utilities &gt;= 1.2.0.12</External_Dependencies>
+      <External_Dependencies>levylab_lib_postgresql &gt;= 1.2.3.16</External_Dependencies>
+      <External_Dependencies>levylab_lib_xy_utilities &gt;= 1.3.2.16</External_Dependencies>
       <External_Dependencies>mgi_lib_application_control &gt;= 1.1.1.10</External_Dependencies>
       <External_Dependencies>mgi_lib_cluster &gt;= 1.1.0.1</External_Dependencies>
       <External_Dependencies>mgi_lib_error_handling &gt;= 1.1.1.3</External_Dependencies>
@@ -61,8 +61,8 @@
       <Direct_Dependencies>levylab_lib_fileutilities-1.2.6.13</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_graph_utilities-2.1.2.4</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_lvtoitx-3.0.5.13</Direct_Dependencies>
-      <Direct_Dependencies>levylab_lib_postgresql-1.2.1.13</Direct_Dependencies>
-      <Direct_Dependencies>levylab_lib_xy_utilities-1.2.0.12</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_postgresql-1.2.3.16</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_xy_utilities-1.3.2.16</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_application_control-1.1.1.10</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_cluster-1.1.0.1</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_error_handling-1.1.1.3</Direct_Dependencies>
@@ -101,8 +101,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- Update Get Magnet Field API
-- Update 1820 Monitor UI Window appearance</Release_Notes>
+      <Release_Notes>- Instrument v1.8
+- API uses updated Remote Control</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -181,18 +181,6 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>RemoteDashboard</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Oxford-1820-Main.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Oxford-1820-Main_.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Oxford-1820-Main.lvproj</Path>
-      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -306,7 +294,7 @@
         <Path>..\src\SMOs\Instrument.Oxford1820\API\Set Magnet Field.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2E369C633E9656D7A6B017787087FEEB</GUID>
+      <GUID>AEFE9E28EBCB639C4C5DDEF4F97B8FDC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
