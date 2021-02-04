@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2021-01-30 11:13:29" Creator="Patrick Irvin" Comments="" ID="fe2db85baebca173c1e711f99557a3de">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2021-02-04 12:15:58" Creator="Patrick Irvin" Comments="" ID="f62b82158d63bbad354f85e2d045cc30">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
-    <Library_Version>1.2.2.16</Library_Version>
+    <Library_Version>1.2.3.17</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -101,8 +101,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- Instrument v1.8
-- API uses updated Remote Control</Release_Notes>
+      <Release_Notes>- Instrument v1.8.1
+  - fixes some issues with PGSQL logging</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -294,7 +294,7 @@
         <Path>..\src\SMOs\Instrument.Oxford1820\API\Set Magnet Field.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AEFE9E28EBCB639C4C5DDEF4F97B8FDC</GUID>
+      <GUID>A826F9AD0E10DA38FD0B7C1CEFC6429E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
