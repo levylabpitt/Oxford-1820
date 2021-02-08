@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2021-02-04 12:15:58" Creator="Patrick Irvin" Comments="" ID="f62b82158d63bbad354f85e2d045cc30">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2021-02-08 16:28:58" Creator="Patrick Irvin" Comments="" ID="ec45a40912f7010e2284046cae43a6a5">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
-    <Library_Version>1.2.3.17</Library_Version>
+    <Library_Version>1.2.4.18</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -45,10 +45,10 @@
       <External_Dependencies>oglib_dictionary &gt;= 4.0.0.4</External_Dependencies>
       <External_Dependencies>oglib_error &gt;= 4.2.0.23</External_Dependencies>
       <External_Dependencies>oglib_file &gt;= 4.0.1.22</External_Dependencies>
-      <External_Dependencies>oglib_lvdata &gt;= 4.2.0.21</External_Dependencies>
+      <External_Dependencies>oglib_lvdata &gt;= 5.0.0.27</External_Dependencies>
       <External_Dependencies>oglib_lvzip &gt;= 4.0.1</External_Dependencies>
       <External_Dependencies>oglib_numeric &gt;= 4.1.0.8</External_Dependencies>
-      <External_Dependencies>oglib_string &gt;= 4.1.0.12</External_Dependencies>
+      <External_Dependencies>oglib_string &gt;= 5.0.0.25</External_Dependencies>
       <External_Dependencies>oglib_time &gt;= 4.0.1.3</External_Dependencies>
       <External_Dependencies>oglib_variantconfig &gt;= 4.0.0.5</External_Dependencies>
       <Direct_Dependencies>jdp_science_postgresql-0.1.1.10</Direct_Dependencies>
@@ -79,16 +79,16 @@
       <Direct_Dependencies>oglib_dictionary-4.0.0.4</Direct_Dependencies>
       <Direct_Dependencies>oglib_error-4.2.0.23</Direct_Dependencies>
       <Direct_Dependencies>oglib_file-4.0.1.22</Direct_Dependencies>
-      <Direct_Dependencies>oglib_lvdata-4.2.0.21</Direct_Dependencies>
+      <Direct_Dependencies>oglib_lvdata-5.0.0.27</Direct_Dependencies>
       <Direct_Dependencies>oglib_lvzip-4.0.1-1</Direct_Dependencies>
       <Direct_Dependencies>oglib_numeric-4.1.0.8</Direct_Dependencies>
-      <Direct_Dependencies>oglib_string-4.1.0.12</Direct_Dependencies>
+      <Direct_Dependencies>oglib_string-5.0.0.25</Direct_Dependencies>
       <Direct_Dependencies>oglib_time-4.0.1.3</Direct_Dependencies>
       <Direct_Dependencies>oglib_variantconfig-4.0.0.5</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
-      <Post-Build_VI>Post-Build Custom Action.vi</Post-Build_VI>
+      <Post-Build_VI/>
       <Pre-Install_VI/>
       <Post-Install_VI/>
       <Pre-Uninstall_VI/>
@@ -101,14 +101,13 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- Instrument v1.8.1
-  - fixes some issues with PGSQL logging</Release_Notes>
+      <Release_Notes>- Fix install location</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;user.lib&gt;\Levylab</Path>
+        <Path>&lt;user.lib&gt;\Levylab\Oxford-1820</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
@@ -294,7 +293,7 @@
         <Path>..\src\SMOs\Instrument.Oxford1820\API\Set Magnet Field.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A826F9AD0E10DA38FD0B7C1CEFC6429E</GUID>
+      <GUID>69ACA921902A6DA87BE6F0A11170BC02</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
