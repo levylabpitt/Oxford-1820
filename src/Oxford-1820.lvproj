@@ -1863,7 +1863,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/1820.ico</Property>
 				<Property Name="Exe_VardepDeployAtStartup" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7508C331-24B2-40FA-A1D1-35A30A21AE55}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2C5EEDCC-C4F6-4ADE-9E85-7A224609683D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Oxford-1820-Main-Launcher.vi</Property>
@@ -1875,13 +1875,7 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/SMOs</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Dependencies/user.lib/RemoteControl.ZMQ.lvclass/dlls/libzmq-v120-mt-4_3_2.dll</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref"></Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">University of Pittsburgh</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Oxford-1820 Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">Oxford-1820 Application</Property>
@@ -1984,7 +1978,7 @@
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{C80AF972-78D0-44EF-9C40-FD1A1F5739A9}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">Oxford-1820 Applicataion</Property>
+				<Property Name="Source[0].name" Type="Str">Oxford-1820 Application</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Oxford-1820 Application</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
