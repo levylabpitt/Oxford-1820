@@ -1580,7 +1580,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/1820-64.ico</Property>
 				<Property Name="Exe_VardepDeployAtStartup" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9EC8E755-4913-4381-B783-A6E6B4DA7EF4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{87858A88-55DC-4677-B897-1E8330AD388D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SMOs/Instrument.Oxford1820.lvclass/Oxford-1820-Main-Launcher.vi</Property>
