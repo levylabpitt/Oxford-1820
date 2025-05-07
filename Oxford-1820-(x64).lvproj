@@ -21,10 +21,8 @@
 			<Item Name="Post-Build Custom Action.vi" Type="VI" URL="../build support/Post-Build Custom Action.vi"/>
 			<Item Name="1820 Build.vi" Type="VI" URL="../build support/1820 Build.vi"/>
 		</Item>
-		<Item Name="SMOs" Type="Folder">
-			<Item Name="Instrument.Oxford1820.lvclass" Type="LVClass" URL="../src/Instrument.Oxford1820/Instrument.Oxford1820.lvclass"/>
-			<Item Name="Instrument UI.Oxford1820.lvclass" Type="LVClass" URL="../src/Instrument.Oxford1820 UI/Instrument UI.Oxford1820.lvclass"/>
-		</Item>
+		<Item Name="Instrument.Oxford1820.lvclass" Type="LVClass" URL="../src/Instrument.Oxford1820/Instrument.Oxford1820.lvclass"/>
+		<Item Name="Instrument UI.Oxford1820.lvclass" Type="LVClass" URL="../src/Instrument.Oxford1820 UI/Instrument UI.Oxford1820.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Ch_Selector.vi" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Examples/Ch_Selector.vi"/>
@@ -1583,7 +1581,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{87858A88-55DC-4677-B897-1E8330AD388D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SMOs/Instrument.Oxford1820.lvclass/Oxford-1820-Main-Launcher.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Instrument.Oxford1820.lvclass/Oxford-1820-Main-Launcher.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
