@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2025-05-15 13:21:35" Creator="Patrick Irvin" Comments="" ID="d0c2917687704d3f8fdb1ed813c4eedb">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2025-05-15 13:44:04" Creator="Patrick Irvin" Comments="" ID="69990dbca49a0ceb532bd9039bbcb04f">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
-    <Library_Version>1.4.0.4</Library_Version>
+    <Library_Version>1.4.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -262,7 +262,7 @@
         <Path>..\src\Instrument.Oxford1820\API\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>699DB2CB82C505384A89D4CD3B0BB53F</GUID>
+      <GUID>234BC5B3551A9D0042185A498D142AED</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
