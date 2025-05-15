@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2024-10-28 14:08:42" Creator="Patrick Irvin" Comments="" ID="18c9697f4e6c236ea9c1831626dc9ee0">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2025-05-15 10:24:38" Creator="Patrick Irvin" Comments="" ID="5e46a83cf22865e0ede35edd4e330ddf">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
     <Library_Version>1.4.0.2</Library_Version>
@@ -17,7 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_levylab_instruments =1.13.0.10</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.15.1.34</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oxford_lib_mercury_ixx &gt;=2.0.0.6</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -35,11 +36,11 @@
       <Packager/>
       <URL/>
       <Release_Notes>[1.4.0]
-- Instrument Framework v1.13.0.10
-- Instrument Framework Issue #91: updated API commands and data names 
-- Issue #12: Backend changes move hardware calls to Instrument.Oxford1820.lvclass:process.vi
-- Issue #13: cryogen level graph elements
-- Mercury drivers are included as Mercury-iXX package depedency
+- #16: Instrument Framework v1.15.1
+- #12: Backend changes move hardware calls to Instrument.Oxford1820.lvclass:process.vi
+- #13: cryogen level graph elements
+- #14: Instrument Framework #91: updated API commands and data names
+- Mercury drivers are included as Mercury-iXX package dependency
 </Release_Notes>
     </Description>
     <Destinations>
@@ -216,7 +217,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\Instrument.Oxford1820\API\Set Magnet.vi</Path>
+        <Path>..\src\Instrument.Oxford1820\API\Set Magnet.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -230,10 +231,10 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\SMOs\Instrument.Oxford1820\API\Get Magnet.vi</Path>
+        <Path>..\src\Instrument.Oxford1820\API\Get Magnet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BDC77E7CD52DFE2E32E70B9F970B4BF8</GUID>
+      <GUID>1F411ADCDC551593926CBDD03442522D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

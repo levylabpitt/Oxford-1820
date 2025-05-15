@@ -262,6 +262,7 @@
 				<Item Name="Unwrap VVariant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Unwrap VVariant__ogtk.vi"/>
 				<Item Name="RemoteControl.ZMQ.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/RemoteControl.ZMQ/RemoteControl.ZMQ.lvlib"/>
 				<Item Name="Instrument.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument.lvlib"/>
+				<Item Name="MGI Is Runtime.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Is Runtime.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -1208,6 +1209,7 @@
 				<Item Name="graph_utilities.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PRIrvin/Graph Utilities/graph_utilities.lvclass"/>
 				<Item Name="xy_utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/PRIrvin/XY Utilities/xy_utilities.lvlib"/>
 				<Item Name="String to 1D Array__ogtkDDA31ED5A732916949AA00FDC27B02BA.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/String to 1D Array__ogtkDDA31ED5A732916949AA00FDC27B02BA.vi"/>
+				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1485,8 +1487,8 @@
 			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NI_MDF.lvlib" Type="Library" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NI_MDF.lvlib"/>
-			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NIMdf.dll"/>
+			<Item Name="NI_MDF.lvlib" Type="Library" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NI_MDF.lvlib"/>
+			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NIMdf.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Oxford-1820 Application" Type="EXE">
