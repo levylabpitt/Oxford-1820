@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2025-05-15 10:39:56" Creator="Patrick Irvin" Comments="" ID="160afdd650304c2de46cdb473dd276eb">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2025-05-15 11:02:13" Creator="Patrick Irvin" Comments="" ID="6ae4cf0154b2125db837190a6c58f824">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
-    <Library_Version>1.4.0.2</Library_Version>
+    <Library_Version>1.4.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -234,7 +234,7 @@
         <Path>..\src\Instrument.Oxford1820\API\Get Magnet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CB6C78DB73ED7C30D4A85AFB98723723</GUID>
+      <GUID>BD8D9F60D91F8F4F61BB5F2F60086610</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
