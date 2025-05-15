@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2025-05-15 12:21:20" Creator="Patrick Irvin" Comments="" ID="d3ab0ffa82146760afd7bdf331ae9ce8">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2025-05-15 13:44:04" Creator="Patrick Irvin" Comments="" ID="69990dbca49a0ceb532bd9039bbcb04f">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
-    <Library_Version>1.4.0.4</Library_Version>
+    <Library_Version>1.4.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -209,7 +209,35 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Set Magnet.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>getMagnet.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Instrument.Oxford1820\API\getMagnet.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>setMagnet.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Instrument.Oxford1820\API\setMagnet.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Open.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -217,24 +245,24 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Instrument.Oxford1820\API\Set Magnet.vi</Path>
+        <Path>..\src\Instrument.Oxford1820\API\Open.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get Magnet.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Close.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>2</Row>
-          <Column>1</Column>
+          <Row>1</Row>
+          <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Instrument.Oxford1820\API\Get Magnet.vi</Path>
+        <Path>..\src\Instrument.Oxford1820\API\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B1251CA3BD9D4152A2735E6FCAD99929</GUID>
+      <GUID>234BC5B3551A9D0042185A498D142AED</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
