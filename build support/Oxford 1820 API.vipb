@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2025-05-15 13:44:04" Creator="Patrick Irvin" Comments="" ID="69990dbca49a0ceb532bd9039bbcb04f">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2025-05-16 08:11:23" Creator="Patrick Irvin" Comments="" ID="638b81c2ad45cca08c71749e56639b28">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
     <Library_Version>1.4.0.5</Library_Version>
@@ -41,6 +41,7 @@
 - #13: cryogen level graph elements
 - #14: Instrument Framework #91: updated API commands and data names
 - Mercury drivers are included as Mercury-iXX package dependency
+- #17: Add missing Start menu shortcut
 </Release_Notes>
     </Description>
     <Destinations>
@@ -262,7 +263,7 @@
         <Path>..\src\Instrument.Oxford1820\API\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>234BC5B3551A9D0042185A498D142AED</GUID>
+      <GUID>82036739EF9B540EF4F6A17082ACEA08</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
