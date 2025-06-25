@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2025-05-16 08:50:01" Creator="Patrick Irvin" Comments="" ID="644f0ca3ce144a8e6ae93fc45b3861b3">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2025-06-25 12:37:33" Creator="Patrick Irvin" Comments="" ID="30e253ecbe06cd4b1b2ac1f0960a022c">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
-    <Library_Version>1.4.0.6</Library_Version>
+    <Library_Version>1.5.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -35,13 +35,9 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.4.0]
-- #16: Instrument Framework v1.15.1
-- #12: Backend changes move hardware calls to Instrument.Oxford1820.lvclass:process.vi
-- #13: cryogen level graph elements
-- #14: Instrument Framework #91: updated API commands and data names
-- Mercury drivers are included as Mercury-iXX package dependency
-- #17: Add missing Start menu shortcut
+      <Release_Notes>[1.5.0]
+- Ensure UI uses only "local" communication
+- Updated ZMQ backend
 </Release_Notes>
     </Description>
     <Destinations>
@@ -263,7 +259,7 @@
         <Path>..\src\Instrument.Oxford1820\API\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5CECCF9292A196520E5E485489194BA0</GUID>
+      <GUID>D9FB8EE1FF4483317587C622E58997B0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
