@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2025-06-25 14:19:30" Creator="Patrick Irvin" Comments="" ID="49947d46bea74ea289c5f7515e8a728d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2025-09-22 15:01:58" Creator="Patrick Irvin" Comments="" ID="e1eba32cf7f62e6105f608d512108584">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
-    <Library_Version>1.5.0.7</Library_Version>
+    <Library_Version>1.5.1.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -35,9 +35,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.5.0]
-- Ensure UI uses only "local" communication
-- Updated ZMQ backend
+      <Release_Notes>[1.5.1]
+- Fix magnet temperature display and logging
 </Release_Notes>
     </Description>
     <Destinations>
@@ -259,7 +258,7 @@
         <Path>..\src\Instrument.Oxford1820\API\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FF6E15BDA0DF19FFA7126F2F6384FAAF</GUID>
+      <GUID>839017072A20FCDD30D94CFFDC6B4E44</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
