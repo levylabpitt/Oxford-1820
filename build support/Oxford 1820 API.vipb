@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2025-11-13 08:38:01" Creator="Patrick Irvin" Comments="" ID="b35809ee4c1aac813c44c1d777072e58">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2025-11-13 09:01:47" Creator="Patrick Irvin" Comments="" ID="464058411fa4ebb2470523c7189a87ab">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
-    <Library_Version>1.5.5.13</Library_Version>
+    <Library_Version>1.5.5.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -257,7 +257,7 @@ hotfix cryogen graph</Release_Notes>
         <Path>..\src\Instrument.Oxford1820\API\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>898E7876C69CE6FE23F1597E3C0C39EE</GUID>
+      <GUID>1FE8149A2A457CBF2081C2EE62244A53</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
