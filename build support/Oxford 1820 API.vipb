@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2025-12-22 15:35:43" Creator="Patrick Irvin" Comments="" ID="31970a7c63c3b367d24d0f8f6ba07c1d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2025-12-24 11:26:52" Creator="Patrick Irvin" Comments="" ID="bd3fbbbce0472ae39a186589ba2c6e72">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
-    <Library_Version>1.6.1.16</Library_Version>
+    <Library_Version>1.6.1.17</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -271,7 +271,7 @@ fix issues with setMagnet sequence</Release_Notes>
         <Path>..\src\Instrument.Oxford1820\API\getMagnetTarget.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>220F7F164996436D414EDDE3114B656B</GUID>
+      <GUID>31FF9D1376F4A62B706D3DB190877327</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
