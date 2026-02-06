@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2026-02-05 15:37:14" Creator="Patrick Irvin" Comments="" ID="463621a14175e44836ab5736a2e97caa">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2026-02-05 17:32:16" Creator="Patrick Irvin" Comments="" ID="b24298d80f069e1b0c25852f19929f36">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
-    <Library_Version>1.6.2.19</Library_Version>
+    <Library_Version>1.6.2.20</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -271,7 +271,7 @@
         <Path>..\src\Instrument.Oxford1820\API\getMagnetTarget.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>51030610FDC0CD1EC1F6AC288DBC3F14</GUID>
+      <GUID>2A19FD934532835F3C5DFE9B998A3C12</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
