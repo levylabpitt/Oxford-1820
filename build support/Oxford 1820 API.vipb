@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2026-02-05 23:34:20" Creator="Patrick Irvin" Comments="" ID="31a3ff17e17be78e6f55cdbc749ec78a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2026-02-07 08:47:20" Creator="Patrick Irvin" Comments="" ID="5edbc8ffcc5db533759ccfd33497d7d3">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
-    <Library_Version>1.6.2.21</Library_Version>
+    <Library_Version>1.6.3.22</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -35,8 +35,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.6.2]
-- build with pgsql/3.12.0.14 (improve database connection management)</Release_Notes>
+      <Release_Notes>[1.6.3]
+- build with pgsql/3.12.1.15 (hotfix for connection key)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -271,7 +271,7 @@
         <Path>..\src\Instrument.Oxford1820\API\getMagnetTarget.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E37F64B25901D93397EB46B291A73642</GUID>
+      <GUID>B89BCCB76EBFAE4043C09A11EB1355F7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
