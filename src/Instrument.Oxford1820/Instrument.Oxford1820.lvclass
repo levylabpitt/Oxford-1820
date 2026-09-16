@@ -742,15 +742,6 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
 		</Item>
-		<Item Name="1820 State History.vi" Type="VI" URL="../Private/1820 State History.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#_!!!!"A!%!!!!'E!Q`````R&amp;$&gt;8*S:7ZU)&amp;.U982F)'^V&gt;!!;1$$`````%'2F&lt;'FN;82F:#"T&gt;(*J&lt;G=!!""!)1NJ&lt;GFU;7&amp;M;8JF0Q!;1$$`````%%.V=H*F&lt;H1A5X2B&gt;'5A;7Y!!&amp;1!]!!-!!!!!!!"!!)!!!!!!!!!!!!!!!!!!Q!%!A!!?!!!!!!!!!!!!!!.#Q!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!))!!!!!!%!"1!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1353196032</Property>
-		</Item>
 		<Item Name="StarTrekIndicator.vi" Type="VI" URL="../Private/StarTrekIndicator.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"I!!!!"1!%!!!!$%!B"U*P&lt;WRF97Y!%%"!!!(`````!!%$&lt;X6U!""!1!!"`````Q!"!GFO!!!Q!0!!"A!!!!)!!!!!!!-!!!)!!&amp;!!!!!!!!!."!!!!!!!!!!!!!)+!!!!!!!!!!!"!!1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
