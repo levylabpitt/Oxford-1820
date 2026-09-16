@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2026-09-16 08:37:57" Creator="Patrick Irvin" Comments="" ID="29716dfd6667275590f805e658049888">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2026-09-16 16:44:41" Creator="Patrick Irvin" Comments="" ID="a6f9c3c62fe28e0fffd05914b034baf4">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
-    <Library_Version>1.6.6.28</Library_Version>
+    <Library_Version>1.6.7.28</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -35,16 +35,15 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.6.6]
-- build with Instrument-Framework/1.15.13.55
-  - Handle GET / Handle SET now return error 5402 "parameter not supported" for unhandled parameters
-  - State History moved to Debug library (history depth 100 normal / 1000 debug)
-  - requires Debug &gt;= 1.2.1.10, Logger-Error &gt;= 1.2.3.10, Logger-PGSQL &gt;= 1.3.1.16
-- build with Remote-Control/1.4.2.21 and Remote-Control-ZMQ/1.3.7.30
-  - improved error handling for timeouts and dropped connections in Send Message
-  - default message timeout is now 500 ms (was 0)
-- build with Logger-PGSQL/1.3.1.16 (#196 DB logger reconnects after losing its connection)
-- package dependency: levylab_lib_levylab_instruments &gt;=1.15.13.55</Release_Notes>
+      <Release_Notes>[1.6.7]
+- reconnect automatically when the TCP connection to the IPS/ITC is lost
+  - detects VISA timeout, connection lost, I/O error, invalid session, resource not found and ID query errors
+  - reports the error once per outage, then retries in the background (5 s, doubling to a 60 s maximum)
+  - stops polling and database logging while disconnected
+  - aborts a running SetMagnet sequence when the connection is lost
+- close hardware with a 1 s VISA timeout so the program exits quickly when the instrument is unreachable
+- fix exit hanging when closing the program while disconnected
+- add Handle Error override (Connection Error Reported?) and Is Connection Error.vi</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -279,7 +278,7 @@
         <Path>..\src\Instrument.Oxford1820\API\getMagnetTarget.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>20BA028509A09BE7CBF4C2B8F1475087</GUID>
+      <GUID>6854167B0484685938EC5813481ACBF7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
