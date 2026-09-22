@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2026-09-17 09:58:21" Creator="Patrick Irvin" Comments="" ID="2ccdb832a6da8128d9aa14f4f8d03d38">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2026-09-22 12:28:48" Creator="Patrick Irvin" Comments="" ID="34fd67e121a9f6c45a858c1741b5a19e">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
-    <Library_Version>1.7.0.31</Library_Version>
+    <Library_Version>1.7.1.32</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -35,9 +35,10 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.7.0]
-- 1.6.7 should have been 1.7.0
-- this release has minor changes to calling abort sequence after connection lost</Release_Notes>
+      <Release_Notes>[1.7.1]
+#25 fix current and voltage display on front panel
+#26 add "Set Magnet" feature to front panel UI
+#27 add getLHeLevel and getLN2Level</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -272,7 +273,7 @@
         <Path>..\src\Instrument.Oxford1820\API\getMagnetTarget.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ED903D4D19E307DDAC25D296E6CD25B8</GUID>
+      <GUID>026E08D79A25A94F52BA71A257186FD8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
