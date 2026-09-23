@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2026-09-22 12:28:48" Creator="Patrick Irvin" Comments="" ID="34fd67e121a9f6c45a858c1741b5a19e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-06 11:07:37" Modified_Date="2026-09-23 09:10:11" Creator="Patrick Irvin" Comments="" ID="3ac3ed6f0929f491d02c87af81ad86c0">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Oxford_1820_API</Package_File_Name>
-    <Library_Version>1.7.1.32</Library_Version>
+    <Library_Version>1.7.2.33</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -35,10 +35,10 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.7.1]
-#25 fix current and voltage display on front panel
-#26 add "Set Magnet" feature to front panel UI
-#27 add getLHeLevel and getLN2Level</Release_Notes>
+      <Release_Notes>[1.7.2]
+- #26 "SET B = TARGET" sequence now waits for each ramp to finish rather than for it to start
+  - fixes the sequence stalling on very small field changes, and when setting the field to 0 T in persistent mode
+- #26 the sequence stops and reports an error if the supply does not reach the target in time, is clamped, or the IPS rejects the setpoint; the magnet is left holding</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -273,7 +273,7 @@
         <Path>..\src\Instrument.Oxford1820\API\getMagnetTarget.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>026E08D79A25A94F52BA71A257186FD8</GUID>
+      <GUID>E40D8C2B468261AE370484C5D73516B5</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
