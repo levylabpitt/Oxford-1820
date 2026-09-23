@@ -8,15 +8,35 @@ All edits are in `src/Instrument.Oxford1820/Process.vi` except step 1.
 
 | Item | What | Status |
 |---|---|---|
-| 1 | Field tolerance widened in `Instrument.1820.FloatApprox.vi` | todo |
-| 2 | New state `Sequence: Check Ramp Done` (HOLD AND supply = target, with deadline) | todo |
-| 3 | `Sequence: Check Targets Match` takes arguments, field only, with deadline | todo |
-| 4 | `Sequence: Ramp PSU to Target` inserts the two new checks | todo |
-| 5 | `Sequence: Ramp PSU to Magnet` inserts the two new checks | todo |
-| 6 | `Sequence: Ramp PSU to Zero` inserts `Check Ramp Done >> 0` | todo |
-| 7 | Delete `Check RTOS`, `Check RTOZ`, `Check PSU at Zero` | todo |
+| 1 | Field tolerance widened in `Instrument.1820.FloatApprox.vi` | **done**, verified |
+| 2 | New state `Sequence: Check Ramp Done` (HOLD AND supply = target, with deadline) | **done**, verified |
+| 3 | `Sequence: Check Targets Match` takes arguments, field only, with deadline | **done**, verified |
+| 4 | `Sequence: Ramp PSU to Target` inserts the two new checks | **done**, verified |
+| 5 | `Sequence: Ramp PSU to Magnet` inserts the two new checks | **done**, verified |
+| 6 | `Sequence: Ramp PSU to Zero` inserts `Check Ramp Done >> 0` | **done**, verified |
+| 7 | Delete `Check RTOS`, `Check RTOZ`, `Check PSU at Zero` | **done**, verified |
+| Tests | T1-T7 below | **not run** |
 
-Do steps 1-6 in one sitting, then step 7 once nothing references the old states. The public API and JSON payloads do not change, so this does not need a Transport release.
+Implemented 2026-09-23, built as 1.7.2. The public API and JSON payloads do not change, so this did not need a Transport release.
+
+## Review of the implementation (2026-09-23)
+
+Checked with `lvkit diff` against HEAD and, for `Sequence: Check Targets Match`, LabVIEW's own block-diagram export. All three edited VIs report clean health (no broken node, subVI, link or compile).
+
+Three defects were found and fixed during review:
+
+| # | What | Status |
+|---|---|---|
+| 1 | `Check Targets Match` had its timeout case frames swapped, so it raised 5432 on every entry (the normal, not-expired path) | **fixed**, verified |
+| 2 | The deadline comparison ran on an unsigned value in both check states, so `<=0?` could only be true at the exact millisecond and no timeout ever fired | **fixed**, verified |
+| 3 | `Check Targets Match`'s expired frame built the 5432 error but left Running Step alone and queued nothing, with no wait, so a genuinely rejected setpoint spun hard | **fixed**, verified |
+
+Fix 2 in detail, since it is easy to reintroduce: the `Scan From String` deadline output is now **U32** (its default-value constant is U32), the `Subtract` is U32 - U32 (deadline - now), and a **Type Cast** with an I32 type constant feeds `<=0?`. Type Cast reinterprets the bits, so the wrap reads as negative and the test stays correct across the tick-count rollover and past 25 days of uptime. `To Long Integer` would **saturate** instead of wrapping - do not substitute it.
+
+### Deviations from the steps below, both deliberate
+
+- **Failure clusters go onto the loop error wire** rather than being logged in place with `Handle Error.vi`. This works here because `Error Handler` calls `Handle Error.vi` with `Stop on Unhandled Error` = FALSE and `Macro: Post Error Handling` restores the remaining states, so the queued `Instrument: Hold` and `Macro: Abort SetMagnet Sequence` still run and the failure is logged once. When testing T4-T6, expect one log entry and a magnet left holding, not an abort with no entry.
+- **The 5433 "Rate coerced" warning is disabled**, by a True constant on its case selector, so the pass-through frame always runs and nothing is logged. It is off by decision, not by oversight. Side effect: the rate `FloatApprox` and the `rate` unbundle that feeds it are dead code in that frame. A Diagram Disable structure would read better than the True constant if this stays off.
 
 ## Before you start
 
